@@ -1,0 +1,145 @@
+\hypertarget{_periph_8h}{\section{include/\-R\-B\-E\-Lib/\-Periph.h File Reference}
+\label{_periph_8h}\index{include/\-R\-B\-E\-Lib/\-Periph.\-h@{include/\-R\-B\-E\-Lib/\-Periph.\-h}}
+}
+
+
+The header file and function prototypes for the peripherals (I\-R, encoder and accelerometer).  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_periph_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+signed int \hyperlink{_periph_8h_a664961c139fdb66c6fd0fb0e997df433}{get\-Accel} (int axis)
+\begin{DoxyCompactList}\small\item\em Find the acceleration in the given axis (X, Y, Z). \end{DoxyCompactList}\item 
+int \hyperlink{_periph_8h_ae0fb6b592e76f0934db14682e63982df}{I\-R\-Dist} (int chan)
+\begin{DoxyCompactList}\small\item\em Read an I\-R sensor and calculate the distance of the block. \end{DoxyCompactList}\item 
+void \hyperlink{_periph_8h_a15de8c2dd97f966ce278ab793669adfd}{enc\-Init} (int chan)
+\begin{DoxyCompactList}\small\item\em Initialize the encoders with the desired settings. \end{DoxyCompactList}\item 
+void \hyperlink{_periph_8h_a9b159db17b7ebf680a2bdd169e269f85}{reset\-Enc\-Count} (int chan)
+\begin{DoxyCompactList}\small\item\em Reset the current count of the encoder ticks. \end{DoxyCompactList}\item 
+signed long \hyperlink{_periph_8h_a6c804bfcd9e9943d093395f535a3b672}{enc\-Count} (int chan)
+\begin{DoxyCompactList}\small\item\em Finds the current count of one of the encoders. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for the peripherals (I\-R, encoder and accelerometer). Each of these functions is for controlling the peripheral devices of the arm. \begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 21, 2013 
+
+July 18, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_periph_8h_source}{Periph.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_periph_8h_a6c804bfcd9e9943d093395f535a3b672}{\index{Periph.\-h@{Periph.\-h}!enc\-Count@{enc\-Count}}
+\index{enc\-Count@{enc\-Count}!Periph.h@{Periph.\-h}}
+\subsubsection[{enc\-Count}]{\setlength{\rightskip}{0pt plus 5cm}signed long enc\-Count (
+\begin{DoxyParamCaption}
+\item[{int}]{chan}
+\end{DoxyParamCaption}
+)}}\label{_periph_8h_a6c804bfcd9e9943d093395f535a3b672}
+
+
+Finds the current count of one of the encoders. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chan} & Channel that the encoder is on that you would like to read. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+count The current count of the encoder.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000015}{Todo}]Find the current encoder ticks on a given channel. \end{DoxyRefDesc}
+\hypertarget{_periph_8h_a15de8c2dd97f966ce278ab793669adfd}{\index{Periph.\-h@{Periph.\-h}!enc\-Init@{enc\-Init}}
+\index{enc\-Init@{enc\-Init}!Periph.h@{Periph.\-h}}
+\subsubsection[{enc\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void enc\-Init (
+\begin{DoxyParamCaption}
+\item[{int}]{chan}
+\end{DoxyParamCaption}
+)}}\label{_periph_8h_a15de8c2dd97f966ce278ab793669adfd}
+
+
+Initialize the encoders with the desired settings. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chan} & Channel to initialize.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000013}{Todo}]Make a function that can setup both encoder chips on the board. \end{DoxyRefDesc}
+\hypertarget{_periph_8h_a664961c139fdb66c6fd0fb0e997df433}{\index{Periph.\-h@{Periph.\-h}!get\-Accel@{get\-Accel}}
+\index{get\-Accel@{get\-Accel}!Periph.h@{Periph.\-h}}
+\subsubsection[{get\-Accel}]{\setlength{\rightskip}{0pt plus 5cm}signed int get\-Accel (
+\begin{DoxyParamCaption}
+\item[{int}]{axis}
+\end{DoxyParamCaption}
+)}}\label{_periph_8h_a664961c139fdb66c6fd0fb0e997df433}
+
+
+Find the acceleration in the given axis (X, Y, Z). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em axis} & The axis that you want to get the measurement of. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+g\-Val Value of acceleration.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000011}{Todo}]Create a function that is able to find the acceleration of a given axis. \end{DoxyRefDesc}
+\hypertarget{_periph_8h_ae0fb6b592e76f0934db14682e63982df}{\index{Periph.\-h@{Periph.\-h}!I\-R\-Dist@{I\-R\-Dist}}
+\index{I\-R\-Dist@{I\-R\-Dist}!Periph.h@{Periph.\-h}}
+\subsubsection[{I\-R\-Dist}]{\setlength{\rightskip}{0pt plus 5cm}int I\-R\-Dist (
+\begin{DoxyParamCaption}
+\item[{int}]{chan}
+\end{DoxyParamCaption}
+)}}\label{_periph_8h_ae0fb6b592e76f0934db14682e63982df}
+
+
+Read an I\-R sensor and calculate the distance of the block. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chan} & The port that the I\-R sensor is on. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value The distance the block is from the sensor.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000012}{Todo}]Make a function that is able to get the A\-D\-C value of the I\-R sensor. \end{DoxyRefDesc}
+\hypertarget{_periph_8h_a9b159db17b7ebf680a2bdd169e269f85}{\index{Periph.\-h@{Periph.\-h}!reset\-Enc\-Count@{reset\-Enc\-Count}}
+\index{reset\-Enc\-Count@{reset\-Enc\-Count}!Periph.h@{Periph.\-h}}
+\subsubsection[{reset\-Enc\-Count}]{\setlength{\rightskip}{0pt plus 5cm}void reset\-Enc\-Count (
+\begin{DoxyParamCaption}
+\item[{int}]{chan}
+\end{DoxyParamCaption}
+)}}\label{_periph_8h_a9b159db17b7ebf680a2bdd169e269f85}
+
+
+Reset the current count of the encoder ticks. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chan} & The channel to clear.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000014}{Todo}]Clear the encoder count (set to 0). \end{DoxyRefDesc}

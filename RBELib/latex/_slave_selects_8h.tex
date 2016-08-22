@@ -1,0 +1,334 @@
+\hypertarget{_slave_selects_8h}{\section{include/\-R\-B\-E\-Lib/\-Slave\-Selects.h File Reference}
+\label{_slave_selects_8h}\index{include/\-R\-B\-E\-Lib/\-Slave\-Selects.\-h@{include/\-R\-B\-E\-Lib/\-Slave\-Selects.\-h}}
+}
+
+
+Here are all of the S\-P\-I line constants such as select lines and direction registers that can be called easily by the user instead of looking up the pins manually.  
+
+
+{\ttfamily \#include \char`\"{}ports.\-h\char`\"{}}\\*
+Include dependency graph for Slave\-Selects.\-h\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{_slave_selects_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_slave_selects_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_slave_selects_8h_ab142cc77dfa97010c9d2b616d0992b64}{S\-P\-I\-\_\-\-M\-I\-S\-O}~P\-O\-R\-T\-Bbits.\-\_\-\-P6
+\begin{DoxyCompactList}\small\item\em S\-P\-I M\-I\-S\-O. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a366f58da009f5d03b8753a41a5c57d84}{S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R}~D\-D\-R\-Bbits.\-\_\-\-P6
+\begin{DoxyCompactList}\small\item\em S\-P\-I M\-I\-S\-O. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a7dbebab5f7dd57885adccf6711b13592}{S\-P\-I\-\_\-\-M\-O\-S\-I}~P\-O\-R\-T\-Bbits.\-\_\-\-P5
+\begin{DoxyCompactList}\small\item\em S\-P\-I M\-O\-S\-I. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_af853ff26d66b9887d2212ef020cb22a4}{S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R}~D\-D\-R\-Bbits.\-\_\-\-P5
+\begin{DoxyCompactList}\small\item\em S\-P\-I M\-O\-S\-I. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a750ca7c9b92cfc9e57272ff3a49db48b}{S\-P\-I\-\_\-\-S\-C\-K}~P\-O\-R\-T\-Bbits.\-\_\-\-P7
+\begin{DoxyCompactList}\small\item\em S\-P\-I Clock. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a5349415ea22a5febfe208e41e283e09e}{S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R}~D\-D\-R\-Bbits.\-\_\-\-P7
+\begin{DoxyCompactList}\small\item\em S\-P\-I Clock. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_aec89105ab45250a756eb3d3638a4e92e}{S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S}~D\-D\-R\-Bbits.\-\_\-\-P4
+\begin{DoxyCompactList}\small\item\em S\-P\-I master S\-S. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_ae1f19ab1d529611ee82a30686b31028e}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0}~P\-O\-R\-T\-Cbits.\-\_\-\-P5
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 0. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a9ab6d00d2ab688db5600737c60ddb314}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1}~P\-O\-R\-T\-Cbits.\-\_\-\-P4
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 1. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a203433243d028bc175021c37dc0802f6}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2}~P\-O\-R\-T\-Cbits.\-\_\-\-P3
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 2. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a086c9cf35f25608a5ff10bebea24a48c}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3}~P\-O\-R\-T\-Cbits.\-\_\-\-P2
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 3. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a7dbdb819db0851ee13ca6cbe1dc5f4c5}{D\-A\-C\-\_\-\-S\-S}~P\-O\-R\-T\-Dbits.\-\_\-\-P4
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select D\-A\-C 1. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_ad742e387c55998038173396b907993a6}{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S}~P\-O\-R\-T\-Cbits.\-\_\-\-P6
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select D\-A\-C 2. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a34df7b0956f5a3b800db76cb529f13be}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr}~D\-D\-R\-Cbits.\-\_\-\-P5
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 0. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_aee3aa0c524fe3c2d1649afe3efd8cc72}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr}~D\-D\-R\-Cbits.\-\_\-\-P4
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 1. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a742de3b51bc439fd401f864b1f3b91d1}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr}~D\-D\-R\-Cbits.\-\_\-\-P3
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 2. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_ab567f89cdb8e93ef39dac964fabcb085}{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr}~D\-D\-R\-Cbits.\-\_\-\-P2
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Encoder 3. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_ae1575f1d0b95f42bc9011fadf88b80b6}{D\-A\-C\-\_\-\-S\-S\-\_\-ddr}~D\-D\-R\-Dbits.\-\_\-\-P4
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select D\-A\-C 1. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_aa6a037d93a6cb48adee845861a4c866c}{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr}~D\-D\-R\-Cbits.\-\_\-\-P6
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select D\-A\-C 2. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a427e16ab2edb4a8994821503d6991fb7}{S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr}~D\-D\-R\-Cbits.\-\_\-\-P0
+\begin{DoxyCompactList}\small\item\em S\-P\-I Slave Select Unused. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_a4148affed266edbb6bf487893da864d3}{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q}~P\-O\-R\-T\-Bbitd.\-\_\-\-P2
+\begin{DoxyCompactList}\small\item\em Interrupt line for all encoders. \end{DoxyCompactList}\item 
+\#define \hyperlink{_slave_selects_8h_aedd2ac127b6656ad063c0970455e5497}{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr}~D\-D\-R\-Bbitd.\-\_\-\-P2
+\begin{DoxyCompactList}\small\item\em Interrupt line for all encoders. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Here are all of the S\-P\-I line constants such as select lines and direction registers that can be called easily by the user instead of looking up the pins manually. \begin{DoxyAuthor}{Author}
+cwrus 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Jun 28, 2012
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 9, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_slave_selects_8h_source}{Slave\-Selects.\-h}.
+
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_slave_selects_8h_ad742e387c55998038173396b907993a6}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S@{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S}}
+\index{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S@{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S~P\-O\-R\-T\-Cbits.\-\_\-\-P6}}\label{_slave_selects_8h_ad742e387c55998038173396b907993a6}
+
+
+S\-P\-I Slave Select D\-A\-C 2. 
+
+
+
+Definition at line 75 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_aa6a037d93a6cb48adee845861a4c866c}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr@{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr}}
+\index{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr@{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-U\-X\-\_\-\-D\-A\-C\-\_\-\-S\-S\-\_\-ddr~D\-D\-R\-Cbits.\-\_\-\-P6}}\label{_slave_selects_8h_aa6a037d93a6cb48adee845861a4c866c}
+
+
+S\-P\-I Slave Select D\-A\-C 2. 
+
+
+
+Definition at line 101 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a7dbdb819db0851ee13ca6cbe1dc5f4c5}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!D\-A\-C\-\_\-\-S\-S@{D\-A\-C\-\_\-\-S\-S}}
+\index{D\-A\-C\-\_\-\-S\-S@{D\-A\-C\-\_\-\-S\-S}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{D\-A\-C\-\_\-\-S\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-A\-C\-\_\-\-S\-S~P\-O\-R\-T\-Dbits.\-\_\-\-P4}}\label{_slave_selects_8h_a7dbdb819db0851ee13ca6cbe1dc5f4c5}
+
+
+S\-P\-I Slave Select D\-A\-C 1. 
+
+
+
+Definition at line 71 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_ae1575f1d0b95f42bc9011fadf88b80b6}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!D\-A\-C\-\_\-\-S\-S\-\_\-ddr@{D\-A\-C\-\_\-\-S\-S\-\_\-ddr}}
+\index{D\-A\-C\-\_\-\-S\-S\-\_\-ddr@{D\-A\-C\-\_\-\-S\-S\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{D\-A\-C\-\_\-\-S\-S\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-A\-C\-\_\-\-S\-S\-\_\-ddr~D\-D\-R\-Dbits.\-\_\-\-P4}}\label{_slave_selects_8h_ae1575f1d0b95f42bc9011fadf88b80b6}
+
+
+S\-P\-I Slave Select D\-A\-C 1. 
+
+
+
+Definition at line 97 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a4148affed266edbb6bf487893da864d3}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q@{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q@{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q~P\-O\-R\-T\-Bbitd.\-\_\-\-P2}}\label{_slave_selects_8h_a4148affed266edbb6bf487893da864d3}
+
+
+Interrupt line for all encoders. 
+
+
+
+Definition at line 110 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_aedd2ac127b6656ad063c0970455e5497}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-I\-R\-Q\-\_\-ddr~D\-D\-R\-Bbitd.\-\_\-\-P2}}\label{_slave_selects_8h_aedd2ac127b6656ad063c0970455e5497}
+
+
+Interrupt line for all encoders. 
+
+
+
+Definition at line 114 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_ae1f19ab1d529611ee82a30686b31028e}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0~P\-O\-R\-T\-Cbits.\-\_\-\-P5}}\label{_slave_selects_8h_ae1f19ab1d529611ee82a30686b31028e}
+
+
+S\-P\-I Slave Select Encoder 0. 
+
+
+
+Definition at line 54 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a34df7b0956f5a3b800db76cb529f13be}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-0\-\_\-ddr~D\-D\-R\-Cbits.\-\_\-\-P5}}\label{_slave_selects_8h_a34df7b0956f5a3b800db76cb529f13be}
+
+
+S\-P\-I Slave Select Encoder 0. 
+
+
+
+Definition at line 80 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a9ab6d00d2ab688db5600737c60ddb314}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1~P\-O\-R\-T\-Cbits.\-\_\-\-P4}}\label{_slave_selects_8h_a9ab6d00d2ab688db5600737c60ddb314}
+
+
+S\-P\-I Slave Select Encoder 1. 
+
+
+
+Definition at line 58 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_aee3aa0c524fe3c2d1649afe3efd8cc72}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-1\-\_\-ddr~D\-D\-R\-Cbits.\-\_\-\-P4}}\label{_slave_selects_8h_aee3aa0c524fe3c2d1649afe3efd8cc72}
+
+
+S\-P\-I Slave Select Encoder 1. 
+
+
+
+Definition at line 84 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a203433243d028bc175021c37dc0802f6}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2~P\-O\-R\-T\-Cbits.\-\_\-\-P3}}\label{_slave_selects_8h_a203433243d028bc175021c37dc0802f6}
+
+
+S\-P\-I Slave Select Encoder 2. 
+
+
+
+Definition at line 62 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a742de3b51bc439fd401f864b1f3b91d1}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-2\-\_\-ddr~D\-D\-R\-Cbits.\-\_\-\-P3}}\label{_slave_selects_8h_a742de3b51bc439fd401f864b1f3b91d1}
+
+
+S\-P\-I Slave Select Encoder 2. 
+
+
+
+Definition at line 88 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a086c9cf35f25608a5ff10bebea24a48c}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3~P\-O\-R\-T\-Cbits.\-\_\-\-P2}}\label{_slave_selects_8h_a086c9cf35f25608a5ff10bebea24a48c}
+
+
+S\-P\-I Slave Select Encoder 3. 
+
+
+
+Definition at line 66 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_ab567f89cdb8e93ef39dac964fabcb085}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr}}
+\index{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr@{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-C\-O\-D\-E\-R\-\_\-\-S\-S\-\_\-3\-\_\-ddr~D\-D\-R\-Cbits.\-\_\-\-P2}}\label{_slave_selects_8h_ab567f89cdb8e93ef39dac964fabcb085}
+
+
+S\-P\-I Slave Select Encoder 3. 
+
+
+
+Definition at line 92 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a427e16ab2edb4a8994821503d6991fb7}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr@{S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr}}
+\index{S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr@{S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-A\-R\-E\-\_\-\-S\-S\-\_\-ddr~D\-D\-R\-Cbits.\-\_\-\-P0}}\label{_slave_selects_8h_a427e16ab2edb4a8994821503d6991fb7}
+
+
+S\-P\-I Slave Select Unused. 
+
+
+
+Definition at line 105 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_aec89105ab45250a756eb3d3638a4e92e}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S@{S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S}}
+\index{S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S@{S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-M\-A\-S\-T\-E\-R\-\_\-\-S\-S~D\-D\-R\-Bbits.\-\_\-\-P4}}\label{_slave_selects_8h_aec89105ab45250a756eb3d3638a4e92e}
+
+
+S\-P\-I master S\-S. 
+
+
+
+Definition at line 50 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_ab142cc77dfa97010c9d2b616d0992b64}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-M\-I\-S\-O@{S\-P\-I\-\_\-\-M\-I\-S\-O}}
+\index{S\-P\-I\-\_\-\-M\-I\-S\-O@{S\-P\-I\-\_\-\-M\-I\-S\-O}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-M\-I\-S\-O}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-M\-I\-S\-O~P\-O\-R\-T\-Bbits.\-\_\-\-P6}}\label{_slave_selects_8h_ab142cc77dfa97010c9d2b616d0992b64}
+
+
+S\-P\-I M\-I\-S\-O. 
+
+
+
+Definition at line 24 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a366f58da009f5d03b8753a41a5c57d84}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R@{S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R}}
+\index{S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R@{S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-M\-I\-S\-O\-\_\-\-D\-D\-R~D\-D\-R\-Bbits.\-\_\-\-P6}}\label{_slave_selects_8h_a366f58da009f5d03b8753a41a5c57d84}
+
+
+S\-P\-I M\-I\-S\-O. 
+
+
+
+Definition at line 28 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a7dbebab5f7dd57885adccf6711b13592}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-M\-O\-S\-I@{S\-P\-I\-\_\-\-M\-O\-S\-I}}
+\index{S\-P\-I\-\_\-\-M\-O\-S\-I@{S\-P\-I\-\_\-\-M\-O\-S\-I}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-M\-O\-S\-I}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-M\-O\-S\-I~P\-O\-R\-T\-Bbits.\-\_\-\-P5}}\label{_slave_selects_8h_a7dbebab5f7dd57885adccf6711b13592}
+
+
+S\-P\-I M\-O\-S\-I. 
+
+
+
+Definition at line 33 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_af853ff26d66b9887d2212ef020cb22a4}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R@{S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R}}
+\index{S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R@{S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-M\-O\-S\-I\-\_\-\-D\-D\-R~D\-D\-R\-Bbits.\-\_\-\-P5}}\label{_slave_selects_8h_af853ff26d66b9887d2212ef020cb22a4}
+
+
+S\-P\-I M\-O\-S\-I. 
+
+
+
+Definition at line 37 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a750ca7c9b92cfc9e57272ff3a49db48b}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-S\-C\-K@{S\-P\-I\-\_\-\-S\-C\-K}}
+\index{S\-P\-I\-\_\-\-S\-C\-K@{S\-P\-I\-\_\-\-S\-C\-K}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-S\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-S\-C\-K~P\-O\-R\-T\-Bbits.\-\_\-\-P7}}\label{_slave_selects_8h_a750ca7c9b92cfc9e57272ff3a49db48b}
+
+
+S\-P\-I Clock. 
+
+
+
+Definition at line 42 of file Slave\-Selects.\-h.
+
+\hypertarget{_slave_selects_8h_a5349415ea22a5febfe208e41e283e09e}{\index{Slave\-Selects.\-h@{Slave\-Selects.\-h}!S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R@{S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R}}
+\index{S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R@{S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R}!SlaveSelects.h@{Slave\-Selects.\-h}}
+\subsubsection[{S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-P\-I\-\_\-\-S\-C\-K\-\_\-\-D\-D\-R~D\-D\-R\-Bbits.\-\_\-\-P7}}\label{_slave_selects_8h_a5349415ea22a5febfe208e41e283e09e}
+
+
+S\-P\-I Clock. 
+
+
+
+Definition at line 46 of file Slave\-Selects.\-h.
+

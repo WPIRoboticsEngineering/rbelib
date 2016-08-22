@@ -1,0 +1,11 @@
+1 1 1 setrgbcolor
+newpath
+-1 -1 moveto
+36 -1 lineto
+36 18 lineto
+-1 18 lineto
+closepath
+fill
+-149 -651 translate
+0 0 0 setrgbcolor
+(_form0.eps) run

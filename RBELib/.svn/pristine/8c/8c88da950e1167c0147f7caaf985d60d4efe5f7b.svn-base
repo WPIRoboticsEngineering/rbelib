@@ -1,0 +1,116 @@
+\hypertarget{union_____p_c_m_s_k3bits__t}{\section{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t Union Reference}
+\label{union_____p_c_m_s_k3bits__t}\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+}
+
+
+Register\+: P\+C\+M\+S\+K3 -\/ Pin Change Mask Register 3. Page\+: 63.  
+
+
+
+
+{\ttfamily \#include $<$reg\+\_\+structs.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_a78b80e558d274bdd09a4bf9a77fafdbd}{\_PCINT24}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_af856e689d838444c14a437917852de49}{\_PCINT25}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_a798486e5466f184399b2991dc14dd300}{\_PCINT26}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_a53a5bfa63892b4e8906aaa2eeaa3fd88}{\_PCINT27}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_aa9e168d399723ffc0a69ee857f4fc4d0}{\_PCINT28}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_a71a34315734b61d8b5c1a5840a09bff8}{\_PCINT29}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_ab0f59eb8b923e669796cdddd9f7aa208}{\_PCINT30}:1\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_ae72615601aeba43313c29c13b6e00fb6}{\_PCINT31}:1\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____p_c_m_s_k3bits__t_ac0000dfc6a94e14008689e5e52e75d1a}{\_w}:8\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Register\+: P\+C\+M\+S\+K3 -\/ Pin Change Mask Register 3. Page\+: 63. 
+
+Definition at line 635 of file reg\+\_\+structs.\+h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union_____p_c_m_s_k3bits__t_af63a963cea64ab7c68789aea0baa9ef7}{\subsubsection[{"@153}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____p_c_m_s_k3bits__t_af63a963cea64ab7c68789aea0baa9ef7}
+\hypertarget{union_____p_c_m_s_k3bits__t_a41015e30d26f02bbadb0c10ffe318663}{\subsubsection[{"@155}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____p_c_m_s_k3bits__t_a41015e30d26f02bbadb0c10ffe318663}
+\hypertarget{union_____p_c_m_s_k3bits__t_a78b80e558d274bdd09a4bf9a77fafdbd}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T24@{\+\_\+\+P\+C\+I\+N\+T24}}
+\index{\+\_\+\+P\+C\+I\+N\+T24@{\+\_\+\+P\+C\+I\+N\+T24}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T24}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T24}}\label{union_____p_c_m_s_k3bits__t_a78b80e558d274bdd09a4bf9a77fafdbd}
+
+
+Definition at line 637 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_af856e689d838444c14a437917852de49}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T25@{\+\_\+\+P\+C\+I\+N\+T25}}
+\index{\+\_\+\+P\+C\+I\+N\+T25@{\+\_\+\+P\+C\+I\+N\+T25}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T25}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T25}}\label{union_____p_c_m_s_k3bits__t_af856e689d838444c14a437917852de49}
+
+
+Definition at line 638 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_a798486e5466f184399b2991dc14dd300}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T26@{\+\_\+\+P\+C\+I\+N\+T26}}
+\index{\+\_\+\+P\+C\+I\+N\+T26@{\+\_\+\+P\+C\+I\+N\+T26}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T26}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T26}}\label{union_____p_c_m_s_k3bits__t_a798486e5466f184399b2991dc14dd300}
+
+
+Definition at line 639 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_a53a5bfa63892b4e8906aaa2eeaa3fd88}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T27@{\+\_\+\+P\+C\+I\+N\+T27}}
+\index{\+\_\+\+P\+C\+I\+N\+T27@{\+\_\+\+P\+C\+I\+N\+T27}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T27}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T27}}\label{union_____p_c_m_s_k3bits__t_a53a5bfa63892b4e8906aaa2eeaa3fd88}
+
+
+Definition at line 640 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_aa9e168d399723ffc0a69ee857f4fc4d0}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T28@{\+\_\+\+P\+C\+I\+N\+T28}}
+\index{\+\_\+\+P\+C\+I\+N\+T28@{\+\_\+\+P\+C\+I\+N\+T28}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T28}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T28}}\label{union_____p_c_m_s_k3bits__t_aa9e168d399723ffc0a69ee857f4fc4d0}
+
+
+Definition at line 641 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_a71a34315734b61d8b5c1a5840a09bff8}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T29@{\+\_\+\+P\+C\+I\+N\+T29}}
+\index{\+\_\+\+P\+C\+I\+N\+T29@{\+\_\+\+P\+C\+I\+N\+T29}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T29}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T29}}\label{union_____p_c_m_s_k3bits__t_a71a34315734b61d8b5c1a5840a09bff8}
+
+
+Definition at line 642 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_ab0f59eb8b923e669796cdddd9f7aa208}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T30@{\+\_\+\+P\+C\+I\+N\+T30}}
+\index{\+\_\+\+P\+C\+I\+N\+T30@{\+\_\+\+P\+C\+I\+N\+T30}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T30}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T30}}\label{union_____p_c_m_s_k3bits__t_ab0f59eb8b923e669796cdddd9f7aa208}
+
+
+Definition at line 643 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_ae72615601aeba43313c29c13b6e00fb6}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+\+P\+C\+I\+N\+T31@{\+\_\+\+P\+C\+I\+N\+T31}}
+\index{\+\_\+\+P\+C\+I\+N\+T31@{\+\_\+\+P\+C\+I\+N\+T31}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+C\+I\+N\+T31}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+\+P\+C\+I\+N\+T31}}\label{union_____p_c_m_s_k3bits__t_ae72615601aeba43313c29c13b6e00fb6}
+
+
+Definition at line 644 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____p_c_m_s_k3bits__t_ac0000dfc6a94e14008689e5e52e75d1a}{\index{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}!\+\_\+w@{\+\_\+w}}
+\index{\+\_\+w@{\+\_\+w}!\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t@{\+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t}}
+\subsubsection[{\+\_\+w}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+P\+C\+M\+S\+K3bits\+\_\+t\+::\+\_\+w}}\label{union_____p_c_m_s_k3bits__t_ac0000dfc6a94e14008689e5e52e75d1a}
+
+
+Definition at line 647 of file reg\+\_\+structs.\+h.
+
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\+R\+B\+E\+Lib/\hyperlink{reg__structs_8h}{reg\+\_\+structs.\+h}\end{DoxyCompactItemize}

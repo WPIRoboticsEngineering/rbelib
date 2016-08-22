@@ -1,0 +1,22 @@
+\hypertarget{datatypes_8h}{\section{include/\-R\-B\-E\-Lib/doxy\-\_\-pages/datatypes.h File Reference}
+\label{datatypes_8h}\index{include/\-R\-B\-E\-Lib/doxy\-\_\-pages/datatypes.\-h@{include/\-R\-B\-E\-Lib/doxy\-\_\-pages/datatypes.\-h}}
+}
+
+
+\subsection{Detailed Description}
+Tells some of the common length of datatypes for your use. You can get this same data by doing
+\begin{DoxyCode}
+sizeOf(<datatype>); 
+\end{DoxyCode}
+ and printing out the value.
+
+\begin{DoxyDate}{Date}
+Aug 28, 2013 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+
+
+Definition in file \hyperlink{datatypes_8h_source}{datatypes.\-h}.
+

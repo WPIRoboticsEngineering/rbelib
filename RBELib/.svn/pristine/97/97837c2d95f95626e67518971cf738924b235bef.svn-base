@@ -1,0 +1,104 @@
+\hypertarget{struct____8bitreg__t}{\section{\-\_\-\-\_\-8bitreg\-\_\-t Struct Reference}
+\label{struct____8bitreg__t}\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+}
+
+
+Generic byte register.  
+
+
+
+
+{\ttfamily \#include $<$reg\-\_\-structs.\-h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned \hyperlink{struct____8bitreg__t_a1c9e01d434d8eb4c6a45b76dd4f1175f}{\-\_\-\-P0}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_a108c964a03f1123681899156b636e203}{\-\_\-\-P1}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_a30b9937367ef01f1adc9f4353c9c323e}{\-\_\-\-P2}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_a5d21a8af52e9e72f540bc6032d7c1047}{\-\_\-\-P3}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_a8e1225a088df1088350fd78a57fa38b4}{\-\_\-\-P4}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_a4a51fd205ff67d3523e92697adc2fc86}{\-\_\-\-P5}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_aa3a7604eeb889d347ef856be027dc6ba}{\-\_\-\-P6}\-:1
+\item 
+unsigned \hyperlink{struct____8bitreg__t_aae126f699a2181048e367daeaa2abc3f}{\-\_\-\-P7}\-:1
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic byte register. 
+
+Used for controlling the pins on the ports. 
+
+Definition at line 26 of file reg\-\_\-structs.\-h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{struct____8bitreg__t_a1c9e01d434d8eb4c6a45b76dd4f1175f}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P0@{\-\_\-\-P0}}
+\index{\-\_\-\-P0@{\-\_\-\-P0}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P0}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P0}}\label{struct____8bitreg__t_a1c9e01d434d8eb4c6a45b76dd4f1175f}
+
+
+Definition at line 27 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_a108c964a03f1123681899156b636e203}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P1@{\-\_\-\-P1}}
+\index{\-\_\-\-P1@{\-\_\-\-P1}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P1}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P1}}\label{struct____8bitreg__t_a108c964a03f1123681899156b636e203}
+
+
+Definition at line 28 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_a30b9937367ef01f1adc9f4353c9c323e}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P2@{\-\_\-\-P2}}
+\index{\-\_\-\-P2@{\-\_\-\-P2}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P2}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P2}}\label{struct____8bitreg__t_a30b9937367ef01f1adc9f4353c9c323e}
+
+
+Definition at line 29 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_a5d21a8af52e9e72f540bc6032d7c1047}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P3@{\-\_\-\-P3}}
+\index{\-\_\-\-P3@{\-\_\-\-P3}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P3}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P3}}\label{struct____8bitreg__t_a5d21a8af52e9e72f540bc6032d7c1047}
+
+
+Definition at line 30 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_a8e1225a088df1088350fd78a57fa38b4}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P4@{\-\_\-\-P4}}
+\index{\-\_\-\-P4@{\-\_\-\-P4}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P4}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P4}}\label{struct____8bitreg__t_a8e1225a088df1088350fd78a57fa38b4}
+
+
+Definition at line 31 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_a4a51fd205ff67d3523e92697adc2fc86}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P5@{\-\_\-\-P5}}
+\index{\-\_\-\-P5@{\-\_\-\-P5}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P5}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P5}}\label{struct____8bitreg__t_a4a51fd205ff67d3523e92697adc2fc86}
+
+
+Definition at line 32 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_aa3a7604eeb889d347ef856be027dc6ba}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P6@{\-\_\-\-P6}}
+\index{\-\_\-\-P6@{\-\_\-\-P6}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P6}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P6}}\label{struct____8bitreg__t_aa3a7604eeb889d347ef856be027dc6ba}
+
+
+Definition at line 33 of file reg\-\_\-structs.\-h.
+
+\hypertarget{struct____8bitreg__t_aae126f699a2181048e367daeaa2abc3f}{\index{\-\_\-\-\_\-8bitreg\-\_\-t@{\-\_\-\-\_\-8bitreg\-\_\-t}!\-\_\-\-P7@{\-\_\-\-P7}}
+\index{\-\_\-\-P7@{\-\_\-\-P7}!__8bitreg_t@{\-\_\-\-\_\-8bitreg\-\_\-t}}
+\subsubsection[{\-\_\-\-P7}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-8bitreg\-\_\-t\-::\-\_\-\-P7}}\label{struct____8bitreg__t_aae126f699a2181048e367daeaa2abc3f}
+
+
+Definition at line 34 of file reg\-\_\-structs.\-h.
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/\-R\-B\-E\-Lib/\hyperlink{reg__structs_8h}{reg\-\_\-structs.\-h}\end{DoxyCompactItemize}

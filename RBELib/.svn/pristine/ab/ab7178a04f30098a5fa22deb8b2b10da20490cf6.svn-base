@@ -1,0 +1,93 @@
+
+\begin{DoxyRefList}
+\item[\label{todo__todo000018}%
+\hypertarget{todo__todo000018}{}%
+Global \hyperlink{_p_i_d_8h_a0b728f39f71526d44fd7cff0ce67319e}{calc\-P\-I\-D} (char link, int set\-Point, int act\-Pos)]Make a function to calculate the P\-I\-D value for a link.  
+\item[\label{todo__todo000004}%
+\hypertarget{todo__todo000004}{}%
+Global \hyperlink{_a_d_c_8h_a8174ca24b578eaf4f82f44d6ce44edb0}{change\-A\-D\-C} (int channel)]Create a way to switch A\-D\-C channels if you are using interrupts.  
+\item[\label{todo__todo000002}%
+\hypertarget{todo__todo000002}{}%
+Global \hyperlink{_a_d_c_8h_a3eef680fc13f11498db80fb145cab8f9}{clear\-A\-D\-C} (int channel)]Create the corresponding function to clear the last A\-D\-C calculation register and disconnect the input to the A\-D\-C if desired.  
+\item[\label{todo__todo000028}%
+\hypertarget{todo__todo000028}{}%
+Global \hyperlink{_u_s_a_r_t_debug_8h_a9a96eb5e6b5a13fff8ed69716e76a314}{debug\-U\-S\-A\-R\-T\-Init} (unsigned long baudrate)]Create the function that will initialize U\-S\-A\-R\-T1 for debugging use.  
+\item[\label{todo__todo000009}%
+\hypertarget{todo__todo000009}{}%
+Global \hyperlink{motors_8h_af4a8cb121ce437984322ade3672082d2}{drive\-Link} (int link, int dir)]Create a way to drive either link in any direction.  
+\item[\label{todo__todo000015}%
+\hypertarget{todo__todo000015}{}%
+Global \hyperlink{_periph_8h_a6c804bfcd9e9943d093395f535a3b672}{enc\-Count} (int chan)]Find the current encoder ticks on a given channel.  
+\item[\label{todo__todo000013}%
+\hypertarget{todo__todo000013}{}%
+Global \hyperlink{_periph_8h_a15de8c2dd97f966ce278ab793669adfd}{enc\-Init} (int chan)]Make a function that can setup both encoder chips on the board.  
+\item[\label{todo__todo000011}%
+\hypertarget{todo__todo000011}{}%
+Global \hyperlink{_periph_8h_a664961c139fdb66c6fd0fb0e997df433}{get\-Accel} (int axis)]Create a function that is able to find the acceleration of a given axis.  
+\item[\label{todo__todo000003}%
+\hypertarget{todo__todo000003}{}%
+Global \hyperlink{_a_d_c_8h_a9f560657fb624f98de3161651f3d4385}{get\-A\-D\-C} (int channel)]Create the corresponding function to obtain the value of the last calculation if you are using polling.  
+\item[\label{todo__todo000030}%
+\hypertarget{todo__todo000030}{}%
+Global \hyperlink{_u_s_a_r_t_debug_8h_aeaa27830bd87dcec2dd03213b02f22aa}{get\-Char\-Debug} (void)]Make the function that will listen for input on the U\-S\-A\-R\-T1 R\-X line.  
+\item[\label{todo__todo000020}%
+\hypertarget{todo__todo000020}{}%
+Global \hyperlink{ports_8h_a85e9d6d0f75513f3f961c41861299430}{get\-Pins\-Val} (char port, int num\-Pins,...)]Create a way to read all given pins on a port.  
+\item[\label{todo__todo000007}%
+\hypertarget{todo__todo000007}{}%
+Global \hyperlink{motors_8h_af29dc743a43c233ac843475727db132f}{goto\-Angles} (int lower\-Theta, int upper\-Theta)]Make a way to drive the links to a desired angle.  
+\item[\label{todo__todo000008}%
+\hypertarget{todo__todo000008}{}%
+Global \hyperlink{motors_8h_aa294b49bfcc17cf4b490fb020e359851}{goto\-X\-Y} (int x, int y)]Use kinematic equations to move the end effector to the desired position.  
+\item[\label{todo__todo000010}%
+\hypertarget{todo__todo000010}{}%
+Global \hyperlink{motors_8h_a946fb06843f118c8abacd3aef032584c}{home\-Pos} ()]Drive the arm to a known position using the potentiometers.  
+\item[\label{todo__todo000001}%
+\hypertarget{todo__todo000001}{}%
+Global \hyperlink{_a_d_c_8h_a1f27a9e1c089f93efc89cdce78739cba}{init\-A\-D\-C} (int channel)]Create the corresponding function to initialize the A\-D\-C using the channel parameter.  
+\item[\label{todo__todo000024}%
+\hypertarget{todo__todo000024}{}%
+Global \hyperlink{_s_p_i_8h_a070402cc6c1cae693d10f59f9c483f76}{init\-S\-P\-I} ()]Create the function that will allow you to initialize the S\-P\-I in a mode compatible with all devices. Do not forget to deassert all of your S\-S lines!  
+\item[\label{todo__todo000026}%
+\hypertarget{todo__todo000026}{}%
+Global \hyperlink{timer_8h_a467daa2177a6f16447a9ada6303c849a}{init\-Timer} (int timer, int mode, unsigned int comp)]Create a function that initializes the desired timer in a given mode and set the compare value (as appropriate).  
+\item[\label{todo__todo000012}%
+\hypertarget{todo__todo000012}{}%
+Global \hyperlink{_periph_8h_ae0fb6b592e76f0934db14682e63982df}{I\-R\-Dist} (int chan)]Make a function that is able to get the A\-D\-C value of the I\-R sensor.  
+\item[\label{todo__todo000016}%
+\hypertarget{todo__todo000016}{}%
+Global \hyperlink{_p_i_d_8h_a4d2fc78b5924045bcc0e20fc95e18d97}{pid\-Consts} ]Again, do not forget to use 
+\item[\label{todo__todo000022}%
+\hypertarget{todo__todo000022}{}%
+Global \hyperlink{pot_8h_a6572afa21880ee8fe8e834b7167e111b}{pot\-Angle} (int pot)]Calculate the angle using the A\-D\-C reading.  
+\item[\label{todo__todo000023}%
+\hypertarget{todo__todo000023}{}%
+Global \hyperlink{pot_8h_ac8f71572a099805fc4cfcc793260e98b}{pot\-Volts} (int pot)]Convert the A\-D\-C value into a voltage in m\-V (so no floats needed).  
+\item[\label{todo__todo000029}%
+\hypertarget{todo__todo000029}{}%
+Global \hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug} (char byte\-To\-Send)]Make the function that will put a character on the U\-S\-A\-R\-T1 T\-X line.  
+\item[\label{todo__todo000014}%
+\hypertarget{todo__todo000014}{}%
+Global \hyperlink{_periph_8h_a9b159db17b7ebf680a2bdd169e269f85}{reset\-Enc\-Count} (int chan)]Clear the encoder count (set to 0).  
+\item[\label{todo__todo000027}%
+\hypertarget{todo__todo000027}{}%
+Global \hyperlink{timer_8h_a7641a7bb79d647d59112ed4d20e01aeb}{set\-Comp\-Value} (unsigned char timer, unsigned short int comp)]Create a function that will set a new compare value for the given timer.  
+\item[\label{todo__todo000017}%
+\hypertarget{todo__todo000017}{}%
+Global \hyperlink{_p_i_d_8h_a2ffb511c1e18ce767f42422609dfa04d}{set\-Const} (char link, float Kp, float Ki, float Kd)]Create a function to the the P\-I\-D constants for a given link.  
+\item[\label{todo__todo000005}%
+\hypertarget{todo__todo000005}{}%
+Global \hyperlink{_d_a_c_8h_af5aa1a81aa11a072a5ab582d040b3edf}{set\-D\-A\-C} (int D\-A\-Cn, int S\-P\-I\-Val)]Make the function that is able to set the D\-A\-C to a given value from 0 -\/ 4095.  
+\item[\label{todo__todo000019}%
+\hypertarget{todo__todo000019}{}%
+Global \hyperlink{ports_8h_a1b62a36451c75cf20221c12f039ad6f4}{set\-Pins\-Dir} (char port, int dir, char num\-Pins,...)]Create a way to set a port's pins to inputs or outputs.  
+\item[\label{todo__todo000021}%
+\hypertarget{todo__todo000021}{}%
+Global \hyperlink{ports_8h_afd809b04181b31d8567d95f070bb9034}{set\-Pins\-Val} (char port, int val, int num\-Pins,...)]Create a way to set all given pins on a port.  
+\item[\label{todo__todo000025}%
+\hypertarget{todo__todo000025}{}%
+Global \hyperlink{_s_p_i_8h_a4d2cd713b65091a59a9a2ee50b28bdf1}{spi\-Transceive} (B\-Y\-T\-E data)]Make a function that will send a byte of data through the S\-P\-I and return whatever was sent back.  
+\item[\label{todo__todo000006}%
+\hypertarget{todo__todo000006}{}%
+Global \hyperlink{motors_8h_a5260da8b51f5d97f6cf2a9ba11d1aee1}{stop\-Motors} ()]Create way to stop the motors using the D\-A\-C. 
+\end{DoxyRefList}

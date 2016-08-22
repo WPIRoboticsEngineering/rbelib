@@ -1,0 +1,45 @@
+\hypertarget{dir_af04faf1932c5d864e60cbc270f2eda2}{\section{include/\-R\-B\-E\-Lib Directory Reference}
+\label{dir_af04faf1932c5d864e60cbc270f2eda2}\index{include/\-R\-B\-E\-Lib Directory Reference@{include/\-R\-B\-E\-Lib Directory Reference}}
+}
+\subsection*{Directories}
+\begin{DoxyCompactItemize}
+\item 
+directory \hyperlink{dir_8dc33fb765feb619dc3a726b4689be9e}{doxy\-\_\-pages}
+\item 
+directory \hyperlink{dir_918cb9228c8a0daed70ed229bb6731b1}{R\-B\-E\-Board}
+\end{DoxyCompactItemize}
+\subsection*{Files}
+\begin{DoxyCompactItemize}
+\item 
+file \hyperlink{_a_d_c_8h}{A\-D\-C.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for the A\-D\-C. \end{DoxyCompactList}\item 
+file \hyperlink{_d_a_c_8h}{D\-A\-C.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for the D\-A\-C. \end{DoxyCompactList}\item 
+file \hyperlink{_debug_8h}{Debug.\-h}
+\begin{DoxyCompactList}\small\item\em Allows for the use of printf() on the 3001 board. Simply rebinds the stdout to the U\-A\-R\-T. \end{DoxyCompactList}\item 
+file \hyperlink{_periph_8h}{Periph.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for the peripherals (I\-R, encoder and accelerometer). \end{DoxyCompactList}\item 
+file \hyperlink{_p_i_d_8h}{P\-I\-D.\-h}
+\begin{DoxyCompactList}\small\item\em The header file for P\-I\-D constants and calculations. \end{DoxyCompactList}\item 
+file \hyperlink{_p_o_r_t_adriver_8h}{P\-O\-R\-T\-Adriver.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for P\-O\-R\-T\-A. \end{DoxyCompactList}\item 
+file \hyperlink{_p_o_r_t_bdriver_8h}{P\-O\-R\-T\-Bdriver.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for P\-O\-R\-T\-B. \end{DoxyCompactList}\item 
+file \hyperlink{_p_o_r_t_cdriver_8h}{P\-O\-R\-T\-Cdriver.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for P\-O\-R\-T\-C. \end{DoxyCompactList}\item 
+file \hyperlink{_p_o_r_t_ddriver_8h}{P\-O\-R\-T\-Ddriver.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for P\-O\-R\-T\-D. \end{DoxyCompactList}\item 
+file \hyperlink{pot_8h}{pot.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for the potentiometers. \end{DoxyCompactList}\item 
+file \hyperlink{_r_b_e_lib_8h}{R\-B\-E\-Lib.\-h}
+\begin{DoxyCompactList}\small\item\em This is a meta-\/header. It includes all the other header files that are needed for R\-B\-E\-Lib as well as some macros. \end{DoxyCompactList}\item 
+file \hyperlink{reg__structs_8h}{reg\-\_\-structs.\-h}
+\begin{DoxyCompactList}\small\item\em This file redefines all of the registers of the A\-Tmega644p as structs to allow for easy access to individual bit fields in each register. The general syntax is $<$register name$>$=\char`\"{}\char`\"{}$>$bits.\-\_\-$<$bitfield name$>$. \end{DoxyCompactList}\item 
+file \hyperlink{_set_servo_8h}{Set\-Servo.\-h}
+\begin{DoxyCompactList}\small\item\em This file allows for using the Ser\-Sevo function to move the conveyor and gripper. \end{DoxyCompactList}\item 
+file \hyperlink{_s_p_i_8h}{S\-P\-I.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for the S\-P\-I. \end{DoxyCompactList}\item 
+file \hyperlink{timer_8h}{timer.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for Timers 0-\/2. \end{DoxyCompactList}\item 
+file \hyperlink{_u_s_a_r_t_debug_8h}{U\-S\-A\-R\-T\-Debug.\-h}
+\begin{DoxyCompactList}\small\item\em The header file and function prototypes for the U\-S\-A\-R\-T. \end{DoxyCompactList}\end{DoxyCompactItemize}

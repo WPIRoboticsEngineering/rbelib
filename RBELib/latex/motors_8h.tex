@@ -1,0 +1,133 @@
+\hypertarget{motors_8h}{\section{include/\-R\-B\-E\-Lib/motors.h File Reference}
+\label{motors_8h}\index{include/\-R\-B\-E\-Lib/motors.\-h@{include/\-R\-B\-E\-Lib/motors.\-h}}
+}
+
+
+Motor driving functions for the arm.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{motors_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{motors_8h_a5260da8b51f5d97f6cf2a9ba11d1aee1}{stop\-Motors} ()
+\begin{DoxyCompactList}\small\item\em Helper function to stop the motors on the arm. \end{DoxyCompactList}\item 
+void \hyperlink{motors_8h_af29dc743a43c233ac843475727db132f}{goto\-Angles} (int lower\-Theta, int upper\-Theta)
+\begin{DoxyCompactList}\small\item\em Drive the arm to a desired angle. \end{DoxyCompactList}\item 
+void \hyperlink{motors_8h_aa294b49bfcc17cf4b490fb020e359851}{goto\-X\-Y} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Drive the end effector of the arm to a desired X and Y position in the workspace. \end{DoxyCompactList}\item 
+void \hyperlink{motors_8h_af4a8cb121ce437984322ade3672082d2}{drive\-Link} (int link, int dir)
+\begin{DoxyCompactList}\small\item\em Drive a link (upper or lower) in a desired direction. \end{DoxyCompactList}\item 
+void \hyperlink{motors_8h_a946fb06843f118c8abacd3aef032584c}{home\-Pos} ()
+\begin{DoxyCompactList}\small\item\em Drive the arm to a \char`\"{}home\char`\"{} position using the potentiometers. This should be called before using the encoders and just goes to a default position. Once this has been called once, you can initialize/clear the encoders. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Motor driving functions for the arm. \begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 9, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{motors_8h_source}{motors.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{motors_8h_af4a8cb121ce437984322ade3672082d2}{\index{motors.\-h@{motors.\-h}!drive\-Link@{drive\-Link}}
+\index{drive\-Link@{drive\-Link}!motors.h@{motors.\-h}}
+\subsubsection[{drive\-Link}]{\setlength{\rightskip}{0pt plus 5cm}void drive\-Link (
+\begin{DoxyParamCaption}
+\item[{int}]{link, }
+\item[{int}]{dir}
+\end{DoxyParamCaption}
+)}}\label{motors_8h_af4a8cb121ce437984322ade3672082d2}
+
+
+Drive a link (upper or lower) in a desired direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em link} & Which link to control. \\
+\hline
+{\em dir} & Which way to drive the link.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000009}{Todo}]Create a way to drive either link in any direction. \end{DoxyRefDesc}
+\hypertarget{motors_8h_af29dc743a43c233ac843475727db132f}{\index{motors.\-h@{motors.\-h}!goto\-Angles@{goto\-Angles}}
+\index{goto\-Angles@{goto\-Angles}!motors.h@{motors.\-h}}
+\subsubsection[{goto\-Angles}]{\setlength{\rightskip}{0pt plus 5cm}void goto\-Angles (
+\begin{DoxyParamCaption}
+\item[{int}]{lower\-Theta, }
+\item[{int}]{upper\-Theta}
+\end{DoxyParamCaption}
+)}}\label{motors_8h_af29dc743a43c233ac843475727db132f}
+
+
+Drive the arm to a desired angle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lower\-Theta} & The desired angle for the lower link. \\
+\hline
+{\em upper\-Theta} & The desired angle for the upper link.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000007}{Todo}]Make a way to drive the links to a desired angle. \end{DoxyRefDesc}
+\hypertarget{motors_8h_aa294b49bfcc17cf4b490fb020e359851}{\index{motors.\-h@{motors.\-h}!goto\-X\-Y@{goto\-X\-Y}}
+\index{goto\-X\-Y@{goto\-X\-Y}!motors.h@{motors.\-h}}
+\subsubsection[{goto\-X\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void goto\-X\-Y (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{motors_8h_aa294b49bfcc17cf4b490fb020e359851}
+
+
+Drive the end effector of the arm to a desired X and Y position in the workspace. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The desired x position for the end effector. \\
+\hline
+{\em y} & The desired y position for the end effector.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000008}{Todo}]Use kinematic equations to move the end effector to the desired position. \end{DoxyRefDesc}
+\hypertarget{motors_8h_a946fb06843f118c8abacd3aef032584c}{\index{motors.\-h@{motors.\-h}!home\-Pos@{home\-Pos}}
+\index{home\-Pos@{home\-Pos}!motors.h@{motors.\-h}}
+\subsubsection[{home\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}void home\-Pos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{motors_8h_a946fb06843f118c8abacd3aef032584c}
+
+
+Drive the arm to a \char`\"{}home\char`\"{} position using the potentiometers. This should be called before using the encoders and just goes to a default position. Once this has been called once, you can initialize/clear the encoders. 
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000010}{Todo}]Drive the arm to a known position using the potentiometers. \end{DoxyRefDesc}
+\hypertarget{motors_8h_a5260da8b51f5d97f6cf2a9ba11d1aee1}{\index{motors.\-h@{motors.\-h}!stop\-Motors@{stop\-Motors}}
+\index{stop\-Motors@{stop\-Motors}!motors.h@{motors.\-h}}
+\subsubsection[{stop\-Motors}]{\setlength{\rightskip}{0pt plus 5cm}void stop\-Motors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{motors_8h_a5260da8b51f5d97f6cf2a9ba11d1aee1}
+
+
+Helper function to stop the motors on the arm. 
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000006}{Todo}]Create way to stop the motors using the D\-A\-C. \end{DoxyRefDesc}

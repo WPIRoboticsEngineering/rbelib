@@ -1,0 +1,120 @@
+\hypertarget{_p_i_d_8h}{\section{include/\-R\-B\-E\-Lib/\-P\-I\-D.h File Reference}
+\label{_p_i_d_8h}\index{include/\-R\-B\-E\-Lib/\-P\-I\-D.\-h@{include/\-R\-B\-E\-Lib/\-P\-I\-D.\-h}}
+}
+
+
+The header file for P\-I\-D constants and calculations.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_p_i_d_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structpid_const}{pid\-Const}
+\begin{DoxyCompactList}\small\item\em P\-I\-D constants. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_p_i_d_8h_a2ffb511c1e18ce767f42422609dfa04d}{set\-Const} (char link, float Kp, float Ki, float Kd)
+\begin{DoxyCompactList}\small\item\em Sets the Kp, Ki, and Kd values for 1 link. \end{DoxyCompactList}\item 
+signed int \hyperlink{_p_i_d_8h_a0b728f39f71526d44fd7cff0ce67319e}{calc\-P\-I\-D} (char link, int set\-Point, int act\-Pos)
+\begin{DoxyCompactList}\small\item\em Calculate the P\-I\-D value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structpid_const}{pid\-Const} \hyperlink{_p_i_d_8h_a4d2fc78b5924045bcc0e20fc95e18d97}{pid\-Consts}
+\begin{DoxyCompactList}\small\item\em Declaration for use in other files. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file for P\-I\-D constants and calculations. Sets the P\-I\-D constants and calculate the P\-I\-D value. \begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 17 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_p_i_d_8h_source}{P\-I\-D.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_p_i_d_8h_a0b728f39f71526d44fd7cff0ce67319e}{\index{P\-I\-D.\-h@{P\-I\-D.\-h}!calc\-P\-I\-D@{calc\-P\-I\-D}}
+\index{calc\-P\-I\-D@{calc\-P\-I\-D}!PID.h@{P\-I\-D.\-h}}
+\subsubsection[{calc\-P\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}signed int calc\-P\-I\-D (
+\begin{DoxyParamCaption}
+\item[{char}]{link, }
+\item[{int}]{set\-Point, }
+\item[{int}]{act\-Pos}
+\end{DoxyParamCaption}
+)}}\label{_p_i_d_8h_a0b728f39f71526d44fd7cff0ce67319e}
+
+
+Calculate the P\-I\-D value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em link} & Which link to calculate the error for (Use 'U' and 'L'). \\
+\hline
+{\em set\-Point} & The desired position of the link. \\
+\hline
+{\em act\-Pos} & The current position of the link.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000018}{Todo}]Make a function to calculate the P\-I\-D value for a link. \end{DoxyRefDesc}
+\hypertarget{_p_i_d_8h_a2ffb511c1e18ce767f42422609dfa04d}{\index{P\-I\-D.\-h@{P\-I\-D.\-h}!set\-Const@{set\-Const}}
+\index{set\-Const@{set\-Const}!PID.h@{P\-I\-D.\-h}}
+\subsubsection[{set\-Const}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Const (
+\begin{DoxyParamCaption}
+\item[{char}]{link, }
+\item[{float}]{Kp, }
+\item[{float}]{Ki, }
+\item[{float}]{Kd}
+\end{DoxyParamCaption}
+)}}\label{_p_i_d_8h_a2ffb511c1e18ce767f42422609dfa04d}
+
+
+Sets the Kp, Ki, and Kd values for 1 link. 
+
+to set the values, use the following style 
+\begin{DoxyCode}
+\hyperlink{structpid_const}{pidConst}.Kp = 1.3; 
+\end{DoxyCode}
+ 
+\begin{DoxyParams}{Parameters}
+{\em link} & The link you want to set the values for (H or L). \\
+\hline
+{\em Kp} & Proportional value. \\
+\hline
+{\em Ki} & Integral value. \\
+\hline
+{\em Kd} & Derivative value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000017}{Todo}]Create a function to the the P\-I\-D constants for a given link. \end{DoxyRefDesc}
+
+
+\subsection{Variable Documentation}
+\hypertarget{_p_i_d_8h_a4d2fc78b5924045bcc0e20fc95e18d97}{\index{P\-I\-D.\-h@{P\-I\-D.\-h}!pid\-Consts@{pid\-Consts}}
+\index{pid\-Consts@{pid\-Consts}!PID.h@{P\-I\-D.\-h}}
+\subsubsection[{pid\-Consts}]{\setlength{\rightskip}{0pt plus 5cm}{\bf pid\-Const} pid\-Consts}}\label{_p_i_d_8h_a4d2fc78b5924045bcc0e20fc95e18d97}
+
+
+Declaration for use in other files. 
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000016}{Todo}]Again, do not forget to use\end{DoxyRefDesc}
+
+\begin{DoxyCode}
+\hyperlink{structpid_const}{pidConst} pidConsts; 
+\end{DoxyCode}
+ in any file you access them in! 

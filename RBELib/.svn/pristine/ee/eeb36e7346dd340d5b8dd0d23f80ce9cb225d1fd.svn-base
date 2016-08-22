@@ -1,0 +1,6 @@
+\section{Data Structures}
+Here are the data structures with brief descriptions\-:\begin{DoxyCompactList}
+\item\contentsline{section}{\hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} \\*Generic byte register }{\pageref{struct____8bitreg__t}}{}
+\item\contentsline{section}{\hyperlink{struct_____s_p_i_p_o_r_tbits__t}{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t} \\*S\-P\-I port }{\pageref{struct_____s_p_i_p_o_r_tbits__t}}{}
+\item\contentsline{section}{\hyperlink{structpid_const}{pid\-Const} \\*P\-I\-D constants }{\pageref{structpid_const}}{}
+\end{DoxyCompactList}

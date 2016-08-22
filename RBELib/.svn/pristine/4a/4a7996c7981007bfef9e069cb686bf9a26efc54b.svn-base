@@ -1,0 +1,86 @@
+\hypertarget{union_____s_p_i_p_o_r_tbits__t}{\section{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t Union Reference}
+\label{union_____s_p_i_p_o_r_tbits__t}\index{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}}
+}
+
+
+S\-P\-I port.  
+
+
+
+
+{\ttfamily \#include $<$reg\-\_\-structs.\-h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____s_p_i_p_o_r_tbits__t_adaa7058ebdf3984a666270efbbd35783}{\_\_pad0\_\_}:5\\
+\>unsigned \hyperlink{union_____s_p_i_p_o_r_tbits__t_aad271e40e94776c0c0b4c69573527867}{\_MOSI}:1\\
+\>unsigned \hyperlink{union_____s_p_i_p_o_r_tbits__t_a495a90d64370d78287cb8ab826e3822e}{\_MISO}:1\\
+\>unsigned \hyperlink{union_____s_p_i_p_o_r_tbits__t_af5db81645a0530bcbb7321f2e5664209}{\_SCK}:1\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____s_p_i_p_o_r_tbits__t_abb3fb2027795720ba0463bb2859499dc}{\_w}:8\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+S\-P\-I port. 
+
+M\-O\-S\-I, M\-I\-S\-O and C\-L\-K pins. 
+
+Definition at line 47 of file reg\-\_\-structs.\-h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_a6fab1639d02b4dc3b97c6d30adcb6aba}{\subsubsection[{"@5}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____s_p_i_p_o_r_tbits__t_a6fab1639d02b4dc3b97c6d30adcb6aba}
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_a4b5b807caba6b1efc8ea89424950b34e}{\subsubsection[{"@7}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____s_p_i_p_o_r_tbits__t_a4b5b807caba6b1efc8ea89424950b34e}
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_adaa7058ebdf3984a666270efbbd35783}{\index{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}!\-\_\-\-\_\-pad0\-\_\-\-\_\-@{\-\_\-\-\_\-pad0\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-pad0\-\_\-\-\_\-@{\-\_\-\-\_\-pad0\-\_\-\-\_\-}!__SPIPORTbits_t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}}
+\subsubsection[{\-\_\-\-\_\-pad0\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t\-::\-\_\-\-\_\-pad0\-\_\-\-\_\-}}\label{union_____s_p_i_p_o_r_tbits__t_adaa7058ebdf3984a666270efbbd35783}
+
+
+Definition at line 49 of file reg\-\_\-structs.\-h.
+
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_a495a90d64370d78287cb8ab826e3822e}{\index{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}!\-\_\-\-M\-I\-S\-O@{\-\_\-\-M\-I\-S\-O}}
+\index{\-\_\-\-M\-I\-S\-O@{\-\_\-\-M\-I\-S\-O}!__SPIPORTbits_t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}}
+\subsubsection[{\-\_\-\-M\-I\-S\-O}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t\-::\-\_\-\-M\-I\-S\-O}}\label{union_____s_p_i_p_o_r_tbits__t_a495a90d64370d78287cb8ab826e3822e}
+
+
+Definition at line 51 of file reg\-\_\-structs.\-h.
+
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_aad271e40e94776c0c0b4c69573527867}{\index{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}!\-\_\-\-M\-O\-S\-I@{\-\_\-\-M\-O\-S\-I}}
+\index{\-\_\-\-M\-O\-S\-I@{\-\_\-\-M\-O\-S\-I}!__SPIPORTbits_t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}}
+\subsubsection[{\-\_\-\-M\-O\-S\-I}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t\-::\-\_\-\-M\-O\-S\-I}}\label{union_____s_p_i_p_o_r_tbits__t_aad271e40e94776c0c0b4c69573527867}
+
+
+Definition at line 50 of file reg\-\_\-structs.\-h.
+
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_af5db81645a0530bcbb7321f2e5664209}{\index{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}!\-\_\-\-S\-C\-K@{\-\_\-\-S\-C\-K}}
+\index{\-\_\-\-S\-C\-K@{\-\_\-\-S\-C\-K}!__SPIPORTbits_t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}}
+\subsubsection[{\-\_\-\-S\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t\-::\-\_\-\-S\-C\-K}}\label{union_____s_p_i_p_o_r_tbits__t_af5db81645a0530bcbb7321f2e5664209}
+
+
+Definition at line 52 of file reg\-\_\-structs.\-h.
+
+\hypertarget{union_____s_p_i_p_o_r_tbits__t_abb3fb2027795720ba0463bb2859499dc}{\index{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}!\-\_\-w@{\-\_\-w}}
+\index{\-\_\-w@{\-\_\-w}!__SPIPORTbits_t@{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}}
+\subsubsection[{\-\_\-w}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t\-::\-\_\-w}}\label{union_____s_p_i_p_o_r_tbits__t_abb3fb2027795720ba0463bb2859499dc}
+
+
+Definition at line 55 of file reg\-\_\-structs.\-h.
+
+
+
+The documentation for this union was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/\-R\-B\-E\-Lib/\hyperlink{reg__structs_8h}{reg\-\_\-structs.\-h}\end{DoxyCompactItemize}

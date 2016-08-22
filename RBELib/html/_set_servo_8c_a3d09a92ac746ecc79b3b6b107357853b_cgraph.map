@@ -1,0 +1,3 @@
+<map id="coPrintf" name="coPrintf">
+<area shape="rect" id="node2" href="$_set_servo_8h.html#a7bf02a3a3e6ee16ae38c3a03bf028023" title="Used to put a char on UART0. It should never be called manually and is used by printf(). " alt="" coords="120,5,224,32"/>
+</map>

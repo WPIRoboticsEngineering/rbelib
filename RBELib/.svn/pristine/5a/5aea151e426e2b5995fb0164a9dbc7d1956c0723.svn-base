@@ -1,0 +1,198 @@
+\contentsline {chapter}{\numberline {1}3001 R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Welcome to R\discretionary {-}{}{}B\discretionary {-}{}{}E 3001}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib Files}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Other Helpful Links}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}Data Types}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}1 Byte}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}2 Bytes}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}4 Bytes}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}8 Bytes}{5}{section.2.4}
+\contentsline {chapter}{\numberline {3}Todo List}{7}{chapter.3}
+\contentsline {chapter}{\numberline {4}Bug List}{9}{chapter.4}
+\contentsline {chapter}{\numberline {5}Data Structure Index}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data Structures}{11}{section.5.1}
+\contentsline {chapter}{\numberline {6}File Index}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}File List}{13}{section.6.1}
+\contentsline {chapter}{\numberline {7}Data Structure Documentation}{15}{chapter.7}
+\contentsline {section}{\numberline {7.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}8bitreg\discretionary {-}{}{}\_\discretionary {-}{}{}t Struct Reference}{15}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{15}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Field Documentation}{15}{subsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P0}{15}{subsubsection.7.1.2.1}
+\contentsline {subsubsection}{\numberline {7.1.2.2}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P1}{15}{subsubsection.7.1.2.2}
+\contentsline {subsubsection}{\numberline {7.1.2.3}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P2}{16}{subsubsection.7.1.2.3}
+\contentsline {subsubsection}{\numberline {7.1.2.4}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P3}{16}{subsubsection.7.1.2.4}
+\contentsline {subsubsection}{\numberline {7.1.2.5}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P4}{16}{subsubsection.7.1.2.5}
+\contentsline {subsubsection}{\numberline {7.1.2.6}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P5}{16}{subsubsection.7.1.2.6}
+\contentsline {subsubsection}{\numberline {7.1.2.7}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P6}{16}{subsubsection.7.1.2.7}
+\contentsline {subsubsection}{\numberline {7.1.2.8}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P7}{16}{subsubsection.7.1.2.8}
+\contentsline {section}{\numberline {7.2}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}Tbits\discretionary {-}{}{}\_\discretionary {-}{}{}t Struct Reference}{16}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{16}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Field Documentation}{17}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}pad0\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{17}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}O}{17}{subsubsection.7.2.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.3}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}O\discretionary {-}{}{}S\discretionary {-}{}{}I}{17}{subsubsection.7.2.2.3}
+\contentsline {subsubsection}{\numberline {7.2.2.4}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}K}{17}{subsubsection.7.2.2.4}
+\contentsline {section}{\numberline {7.3}pid\discretionary {-}{}{}Const Struct Reference}{17}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{17}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Field Documentation}{18}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Kd\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H}{18}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Kd\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L}{18}{subsubsection.7.3.2.2}
+\contentsline {subsubsection}{\numberline {7.3.2.3}Ki\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H}{18}{subsubsection.7.3.2.3}
+\contentsline {subsubsection}{\numberline {7.3.2.4}Ki\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L}{18}{subsubsection.7.3.2.4}
+\contentsline {subsubsection}{\numberline {7.3.2.5}Kp\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H}{18}{subsubsection.7.3.2.5}
+\contentsline {subsubsection}{\numberline {7.3.2.6}Kp\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}L}{18}{subsubsection.7.3.2.6}
+\contentsline {chapter}{\numberline {8}File Documentation}{19}{chapter.8}
+\contentsline {section}{\numberline {8.1}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C.h File Reference}{19}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{20}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Function Documentation}{20}{subsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.2.1}change\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C}{20}{subsubsection.8.1.2.1}
+\contentsline {subsubsection}{\numberline {8.1.2.2}clear\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C}{20}{subsubsection.8.1.2.2}
+\contentsline {subsubsection}{\numberline {8.1.2.3}get\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C}{21}{subsubsection.8.1.2.3}
+\contentsline {subsubsection}{\numberline {8.1.2.4}init\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C}{21}{subsubsection.8.1.2.4}
+\contentsline {section}{\numberline {8.2}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}C.h File Reference}{21}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{22}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Function Documentation}{22}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}set\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}C}{22}{subsubsection.8.2.2.1}
+\contentsline {section}{\numberline {8.3}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}Debug.h File Reference}{23}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Detailed Description}{23}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Function Documentation}{24}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}init\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib}{24}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.3.2.2}printf\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E}{24}{subsubsection.8.3.2.2}
+\contentsline {section}{\numberline {8.4}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/doxy\discretionary {-}{}{}\_\discretionary {-}{}{}pages/datatypes.h File Reference}{25}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{25}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/doxy\discretionary {-}{}{}\_\discretionary {-}{}{}pages/index.h File Reference}{25}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{25}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/motors.h File Reference}{26}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Detailed Description}{26}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Function Documentation}{27}{subsection.8.6.2}
+\contentsline {subsubsection}{\numberline {8.6.2.1}drive\discretionary {-}{}{}Link}{27}{subsubsection.8.6.2.1}
+\contentsline {subsubsection}{\numberline {8.6.2.2}goto\discretionary {-}{}{}Angles}{27}{subsubsection.8.6.2.2}
+\contentsline {subsubsection}{\numberline {8.6.2.3}goto\discretionary {-}{}{}X\discretionary {-}{}{}Y}{27}{subsubsection.8.6.2.3}
+\contentsline {subsubsection}{\numberline {8.6.2.4}home\discretionary {-}{}{}Pos}{27}{subsubsection.8.6.2.4}
+\contentsline {subsubsection}{\numberline {8.6.2.5}stop\discretionary {-}{}{}Motors}{27}{subsubsection.8.6.2.5}
+\contentsline {section}{\numberline {8.7}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}Periph.h File Reference}{28}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{28}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Function Documentation}{29}{subsection.8.7.2}
+\contentsline {subsubsection}{\numberline {8.7.2.1}enc\discretionary {-}{}{}Count}{29}{subsubsection.8.7.2.1}
+\contentsline {subsubsection}{\numberline {8.7.2.2}enc\discretionary {-}{}{}Init}{29}{subsubsection.8.7.2.2}
+\contentsline {subsubsection}{\numberline {8.7.2.3}get\discretionary {-}{}{}Accel}{29}{subsubsection.8.7.2.3}
+\contentsline {subsubsection}{\numberline {8.7.2.4}I\discretionary {-}{}{}R\discretionary {-}{}{}Dist}{29}{subsubsection.8.7.2.4}
+\contentsline {subsubsection}{\numberline {8.7.2.5}reset\discretionary {-}{}{}Enc\discretionary {-}{}{}Count}{30}{subsubsection.8.7.2.5}
+\contentsline {section}{\numberline {8.8}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}D.h File Reference}{31}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}Detailed Description}{32}{subsection.8.8.1}
+\contentsline {subsection}{\numberline {8.8.2}Function Documentation}{32}{subsection.8.8.2}
+\contentsline {subsubsection}{\numberline {8.8.2.1}calc\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}D}{32}{subsubsection.8.8.2.1}
+\contentsline {subsubsection}{\numberline {8.8.2.2}set\discretionary {-}{}{}Const}{32}{subsubsection.8.8.2.2}
+\contentsline {subsection}{\numberline {8.8.3}Variable Documentation}{32}{subsection.8.8.3}
+\contentsline {subsubsection}{\numberline {8.8.3.1}pid\discretionary {-}{}{}Consts}{32}{subsubsection.8.8.3.1}
+\contentsline {section}{\numberline {8.9}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/ports.h File Reference}{33}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{33}{subsection.8.9.1}
+\contentsline {subsection}{\numberline {8.9.2}Function Documentation}{34}{subsection.8.9.2}
+\contentsline {subsubsection}{\numberline {8.9.2.1}get\discretionary {-}{}{}Pins\discretionary {-}{}{}Val}{34}{subsubsection.8.9.2.1}
+\contentsline {subsubsection}{\numberline {8.9.2.2}set\discretionary {-}{}{}Pins\discretionary {-}{}{}Dir}{34}{subsubsection.8.9.2.2}
+\contentsline {subsubsection}{\numberline {8.9.2.3}set\discretionary {-}{}{}Pins\discretionary {-}{}{}Val}{34}{subsubsection.8.9.2.3}
+\contentsline {section}{\numberline {8.10}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/pot.h File Reference}{35}{section.8.10}
+\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{35}{subsection.8.10.1}
+\contentsline {subsection}{\numberline {8.10.2}Function Documentation}{36}{subsection.8.10.2}
+\contentsline {subsubsection}{\numberline {8.10.2.1}pot\discretionary {-}{}{}Angle}{36}{subsubsection.8.10.2.1}
+\contentsline {subsubsection}{\numberline {8.10.2.2}pot\discretionary {-}{}{}Volts}{36}{subsubsection.8.10.2.2}
+\contentsline {section}{\numberline {8.11}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib.h File Reference}{37}{section.8.11}
+\contentsline {subsection}{\numberline {8.11.1}Detailed Description}{38}{subsection.8.11.1}
+\contentsline {subsection}{\numberline {8.11.2}Macro Definition Documentation}{38}{subsection.8.11.2}
+\contentsline {subsubsection}{\numberline {8.11.2.1}B\discretionary {-}{}{}O\discretionary {-}{}{}O\discretionary {-}{}{}L}{38}{subsubsection.8.11.2.1}
+\contentsline {subsubsection}{\numberline {8.11.2.2}B\discretionary {-}{}{}Y\discretionary {-}{}{}T\discretionary {-}{}{}E}{39}{subsubsection.8.11.2.2}
+\contentsline {subsubsection}{\numberline {8.11.2.3}F\discretionary {-}{}{}A\discretionary {-}{}{}L\discretionary {-}{}{}S\discretionary {-}{}{}E}{39}{subsubsection.8.11.2.3}
+\contentsline {subsubsection}{\numberline {8.11.2.4}H\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H}{39}{subsubsection.8.11.2.4}
+\contentsline {subsubsection}{\numberline {8.11.2.5}I\discretionary {-}{}{}N\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}T}{39}{subsubsection.8.11.2.5}
+\contentsline {subsubsection}{\numberline {8.11.2.6}I\discretionary {-}{}{}N\discretionary {-}{}{}T32}{39}{subsubsection.8.11.2.6}
+\contentsline {subsubsection}{\numberline {8.11.2.7}L\discretionary {-}{}{}O\discretionary {-}{}{}W}{39}{subsubsection.8.11.2.7}
+\contentsline {subsubsection}{\numberline {8.11.2.8}O\discretionary {-}{}{}F\discretionary {-}{}{}F}{39}{subsubsection.8.11.2.8}
+\contentsline {subsubsection}{\numberline {8.11.2.9}O\discretionary {-}{}{}N}{39}{subsubsection.8.11.2.9}
+\contentsline {subsubsection}{\numberline {8.11.2.10}O\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}T}{39}{subsubsection.8.11.2.10}
+\contentsline {subsubsection}{\numberline {8.11.2.11}T\discretionary {-}{}{}R\discretionary {-}{}{}U\discretionary {-}{}{}E}{39}{subsubsection.8.11.2.11}
+\contentsline {subsubsection}{\numberline {8.11.2.12}U\discretionary {-}{}{}I\discretionary {-}{}{}N\discretionary {-}{}{}T16}{39}{subsubsection.8.11.2.12}
+\contentsline {subsubsection}{\numberline {8.11.2.13}U\discretionary {-}{}{}I\discretionary {-}{}{}N\discretionary {-}{}{}T32}{40}{subsubsection.8.11.2.13}
+\contentsline {subsubsection}{\numberline {8.11.2.14}W\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}D}{40}{subsubsection.8.11.2.14}
+\contentsline {section}{\numberline {8.12}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/reg\discretionary {-}{}{}\_\discretionary {-}{}{}structs.h File Reference}{40}{section.8.12}
+\contentsline {subsection}{\numberline {8.12.1}Detailed Description}{41}{subsection.8.12.1}
+\contentsline {subsection}{\numberline {8.12.2}Function Documentation}{41}{subsection.8.12.2}
+\contentsline {subsubsection}{\numberline {8.12.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{41}{subsubsection.8.12.2.1}
+\contentsline {subsubsection}{\numberline {8.12.2.2}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{41}{subsubsection.8.12.2.2}
+\contentsline {subsubsection}{\numberline {8.12.2.3}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{41}{subsubsection.8.12.2.3}
+\contentsline {subsubsection}{\numberline {8.12.2.4}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{41}{subsubsection.8.12.2.4}
+\contentsline {subsubsection}{\numberline {8.12.2.5}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{41}{subsubsection.8.12.2.5}
+\contentsline {subsubsection}{\numberline {8.12.2.6}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.6}
+\contentsline {subsubsection}{\numberline {8.12.2.7}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.7}
+\contentsline {subsubsection}{\numberline {8.12.2.8}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.8}
+\contentsline {subsubsection}{\numberline {8.12.2.9}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.9}
+\contentsline {subsubsection}{\numberline {8.12.2.10}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.10}
+\contentsline {subsubsection}{\numberline {8.12.2.11}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.11}
+\contentsline {subsubsection}{\numberline {8.12.2.12}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}asm\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}\_\discretionary {-}{}{}}{42}{subsubsection.8.12.2.12}
+\contentsline {section}{\numberline {8.13}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}Set\discretionary {-}{}{}Servo.h File Reference}{42}{section.8.13}
+\contentsline {subsection}{\numberline {8.13.1}Detailed Description}{43}{subsection.8.13.1}
+\contentsline {subsection}{\numberline {8.13.2}Macro Definition Documentation}{43}{subsection.8.13.2}
+\contentsline {subsubsection}{\numberline {8.13.2.1}C\discretionary {-}{}{}L\discretionary {-}{}{}K}{43}{subsubsection.8.13.2.1}
+\contentsline {subsection}{\numberline {8.13.3}Function Documentation}{43}{subsection.8.13.3}
+\contentsline {subsubsection}{\numberline {8.13.3.1}co\discretionary {-}{}{}Printf}{43}{subsubsection.8.13.3.1}
+\contentsline {subsubsection}{\numberline {8.13.3.2}init\discretionary {-}{}{}Alt\discretionary {-}{}{}Com}{44}{subsubsection.8.13.3.2}
+\contentsline {subsubsection}{\numberline {8.13.3.3}set\discretionary {-}{}{}Char\discretionary {-}{}{}Debug}{44}{subsubsection.8.13.3.3}
+\contentsline {subsubsection}{\numberline {8.13.3.4}set\discretionary {-}{}{}Servo}{44}{subsubsection.8.13.3.4}
+\contentsline {section}{\numberline {8.14}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}Slave\discretionary {-}{}{}Selects.h File Reference}{45}{section.8.14}
+\contentsline {subsection}{\numberline {8.14.1}Detailed Description}{47}{subsection.8.14.1}
+\contentsline {subsection}{\numberline {8.14.2}Macro Definition Documentation}{47}{subsection.8.14.2}
+\contentsline {subsubsection}{\numberline {8.14.2.1}A\discretionary {-}{}{}U\discretionary {-}{}{}X\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S}{47}{subsubsection.8.14.2.1}
+\contentsline {subsubsection}{\numberline {8.14.2.2}A\discretionary {-}{}{}U\discretionary {-}{}{}X\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{48}{subsubsection.8.14.2.2}
+\contentsline {subsubsection}{\numberline {8.14.2.3}D\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S}{48}{subsubsection.8.14.2.3}
+\contentsline {subsubsection}{\numberline {8.14.2.4}D\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{48}{subsubsection.8.14.2.4}
+\contentsline {subsubsection}{\numberline {8.14.2.5}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}I\discretionary {-}{}{}R\discretionary {-}{}{}Q}{48}{subsubsection.8.14.2.5}
+\contentsline {subsubsection}{\numberline {8.14.2.6}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}I\discretionary {-}{}{}R\discretionary {-}{}{}Q\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{48}{subsubsection.8.14.2.6}
+\contentsline {subsubsection}{\numberline {8.14.2.7}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}0}{48}{subsubsection.8.14.2.7}
+\contentsline {subsubsection}{\numberline {8.14.2.8}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}0\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{48}{subsubsection.8.14.2.8}
+\contentsline {subsubsection}{\numberline {8.14.2.9}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}1}{48}{subsubsection.8.14.2.9}
+\contentsline {subsubsection}{\numberline {8.14.2.10}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}1\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{48}{subsubsection.8.14.2.10}
+\contentsline {subsubsection}{\numberline {8.14.2.11}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}2}{49}{subsubsection.8.14.2.11}
+\contentsline {subsubsection}{\numberline {8.14.2.12}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}2\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{49}{subsubsection.8.14.2.12}
+\contentsline {subsubsection}{\numberline {8.14.2.13}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}3}{49}{subsubsection.8.14.2.13}
+\contentsline {subsubsection}{\numberline {8.14.2.14}E\discretionary {-}{}{}N\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}3\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{49}{subsubsection.8.14.2.14}
+\contentsline {subsubsection}{\numberline {8.14.2.15}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}ddr}{49}{subsubsection.8.14.2.15}
+\contentsline {subsubsection}{\numberline {8.14.2.16}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}S}{49}{subsubsection.8.14.2.16}
+\contentsline {subsubsection}{\numberline {8.14.2.17}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}O}{49}{subsubsection.8.14.2.17}
+\contentsline {subsubsection}{\numberline {8.14.2.18}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}O\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}D\discretionary {-}{}{}R}{49}{subsubsection.8.14.2.18}
+\contentsline {subsubsection}{\numberline {8.14.2.19}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}O\discretionary {-}{}{}S\discretionary {-}{}{}I}{49}{subsubsection.8.14.2.19}
+\contentsline {subsubsection}{\numberline {8.14.2.20}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}O\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}D\discretionary {-}{}{}R}{50}{subsubsection.8.14.2.20}
+\contentsline {subsubsection}{\numberline {8.14.2.21}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}K}{50}{subsubsection.8.14.2.21}
+\contentsline {subsubsection}{\numberline {8.14.2.22}S\discretionary {-}{}{}P\discretionary {-}{}{}I\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}D\discretionary {-}{}{}R}{50}{subsubsection.8.14.2.22}
+\contentsline {section}{\numberline {8.15}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}I.h File Reference}{50}{section.8.15}
+\contentsline {subsection}{\numberline {8.15.1}Detailed Description}{51}{subsection.8.15.1}
+\contentsline {subsection}{\numberline {8.15.2}Function Documentation}{51}{subsection.8.15.2}
+\contentsline {subsubsection}{\numberline {8.15.2.1}init\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}I}{51}{subsubsection.8.15.2.1}
+\contentsline {subsubsection}{\numberline {8.15.2.2}spi\discretionary {-}{}{}Transceive}{51}{subsubsection.8.15.2.2}
+\contentsline {section}{\numberline {8.16}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/timer.h File Reference}{52}{section.8.16}
+\contentsline {subsection}{\numberline {8.16.1}Detailed Description}{53}{subsection.8.16.1}
+\contentsline {subsection}{\numberline {8.16.2}Macro Definition Documentation}{53}{subsection.8.16.2}
+\contentsline {subsubsection}{\numberline {8.16.2.1}C\discretionary {-}{}{}T\discretionary {-}{}{}C}{53}{subsubsection.8.16.2.1}
+\contentsline {subsubsection}{\numberline {8.16.2.2}N\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}M\discretionary {-}{}{}A\discretionary {-}{}{}L}{53}{subsubsection.8.16.2.2}
+\contentsline {subsection}{\numberline {8.16.3}Function Documentation}{53}{subsection.8.16.3}
+\contentsline {subsubsection}{\numberline {8.16.3.1}init\discretionary {-}{}{}Timer}{53}{subsubsection.8.16.3.1}
+\contentsline {subsubsection}{\numberline {8.16.3.2}set\discretionary {-}{}{}Comp\discretionary {-}{}{}Value}{54}{subsubsection.8.16.3.2}
+\contentsline {section}{\numberline {8.17}include/\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib/\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}T\discretionary {-}{}{}Debug.h File Reference}{54}{section.8.17}
+\contentsline {subsection}{\numberline {8.17.1}Detailed Description}{55}{subsection.8.17.1}
+\contentsline {subsection}{\numberline {8.17.2}Macro Definition Documentation}{55}{subsection.8.17.2}
+\contentsline {subsubsection}{\numberline {8.17.2.1}D\discretionary {-}{}{}E\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}U\discretionary {-}{}{}L\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}B\discretionary {-}{}{}A\discretionary {-}{}{}U\discretionary {-}{}{}D}{55}{subsubsection.8.17.2.1}
+\contentsline {subsection}{\numberline {8.17.3}Function Documentation}{55}{subsection.8.17.3}
+\contentsline {subsubsection}{\numberline {8.17.3.1}debug\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}T\discretionary {-}{}{}Init}{55}{subsubsection.8.17.3.1}
+\contentsline {subsubsection}{\numberline {8.17.3.2}get\discretionary {-}{}{}Char\discretionary {-}{}{}Debug}{56}{subsubsection.8.17.3.2}
+\contentsline {subsubsection}{\numberline {8.17.3.3}put\discretionary {-}{}{}Char\discretionary {-}{}{}Debug}{56}{subsubsection.8.17.3.3}
+\contentsline {section}{\numberline {8.18}src/\discretionary {-}{}{}Co\discretionary {-}{}{}Processor/\discretionary {-}{}{}Set\discretionary {-}{}{}Servo.c File Reference}{56}{section.8.18}
+\contentsline {subsection}{\numberline {8.18.1}Detailed Description}{57}{subsection.8.18.1}
+\contentsline {subsection}{\numberline {8.18.2}Function Documentation}{57}{subsection.8.18.2}
+\contentsline {subsubsection}{\numberline {8.18.2.1}co\discretionary {-}{}{}Printf}{57}{subsubsection.8.18.2.1}
+\contentsline {subsubsection}{\numberline {8.18.2.2}init\discretionary {-}{}{}Alt\discretionary {-}{}{}Com}{57}{subsubsection.8.18.2.2}
+\contentsline {subsubsection}{\numberline {8.18.2.3}set\discretionary {-}{}{}Char\discretionary {-}{}{}Debug}{58}{subsubsection.8.18.2.3}
+\contentsline {subsubsection}{\numberline {8.18.2.4}set\discretionary {-}{}{}Servo}{58}{subsubsection.8.18.2.4}
+\contentsline {section}{\numberline {8.19}src/\discretionary {-}{}{}Debug.c File Reference}{58}{section.8.19}
+\contentsline {subsection}{\numberline {8.19.1}Detailed Description}{59}{subsection.8.19.1}
+\contentsline {subsection}{\numberline {8.19.2}Function Documentation}{59}{subsection.8.19.2}
+\contentsline {subsubsection}{\numberline {8.19.2.1}init\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}Lib}{59}{subsubsection.8.19.2.1}
+\contentsline {subsubsection}{\numberline {8.19.2.2}printf\discretionary {-}{}{}R\discretionary {-}{}{}B\discretionary {-}{}{}E}{60}{subsubsection.8.19.2.2}
+\contentsline {part}{Index}{61}{section*.28}

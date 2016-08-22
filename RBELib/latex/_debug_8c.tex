@@ -1,0 +1,107 @@
+\hypertarget{_debug_8c}{\section{src/\-Debug.c File Reference}
+\label{_debug_8c}\index{src/\-Debug.\-c@{src/\-Debug.\-c}}
+}
+
+
+Allows for printf() and \hyperlink{_set_servo_8h_aacba653c33e27af6b2ea227100a4217b}{set\-Servo()} capability.  
+
+
+{\ttfamily \#include \char`\"{}R\-B\-E\-Lib/\-R\-B\-E\-Lib.\-h\char`\"{}}\\*
+Include dependency graph for Debug.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_debug_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_debug_8c_a450add2014d3b1c410c4225da137269a}{printf\-R\-B\-E} (char var, F\-I\-L\-E $\ast$stream)
+\begin{DoxyCompactList}\small\item\em Calls the students function '\hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug()}' to output the stream to. You should not call this function directly, instead use the standard function printf(). \end{DoxyCompactList}\item 
+void \hyperlink{_debug_8c_af447ccfe0edd5c2eee6ff9aba36bd6f9}{init\-R\-B\-E\-Lib} ()
+\begin{DoxyCompactList}\small\item\em Rebinds stdout to call \hyperlink{_debug_8h_a450add2014d3b1c410c4225da137269a}{printf\-R\-B\-E()} and initializes communication with the coprocessor. This function should be called once at the start of your code once you have \hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug()} written in Lab 1. If you do not call this, printf() and Set\-Servo() will not work. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Allows for printf() and \hyperlink{_set_servo_8h_aacba653c33e27af6b2ea227100a4217b}{set\-Servo()} capability. \begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 9, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_debug_8c_source}{Debug.\-c}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_debug_8c_af447ccfe0edd5c2eee6ff9aba36bd6f9}{\index{Debug.\-c@{Debug.\-c}!init\-R\-B\-E\-Lib@{init\-R\-B\-E\-Lib}}
+\index{init\-R\-B\-E\-Lib@{init\-R\-B\-E\-Lib}!Debug.c@{Debug.\-c}}
+\subsubsection[{init\-R\-B\-E\-Lib}]{\setlength{\rightskip}{0pt plus 5cm}void init\-R\-B\-E\-Lib (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_debug_8c_af447ccfe0edd5c2eee6ff9aba36bd6f9}
+
+
+Rebinds stdout to call \hyperlink{_debug_8h_a450add2014d3b1c410c4225da137269a}{printf\-R\-B\-E()} and initializes communication with the coprocessor. This function should be called once at the start of your code once you have \hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug()} written in Lab 1. If you do not call this, printf() and Set\-Servo() will not work. 
+
+
+
+Definition at line 20 of file Debug.\-c.
+
+
+
+References init\-Alt\-Com().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{_debug_8c_af447ccfe0edd5c2eee6ff9aba36bd6f9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{_debug_8c_a450add2014d3b1c410c4225da137269a}{\index{Debug.\-c@{Debug.\-c}!printf\-R\-B\-E@{printf\-R\-B\-E}}
+\index{printf\-R\-B\-E@{printf\-R\-B\-E}!Debug.c@{Debug.\-c}}
+\subsubsection[{printf\-R\-B\-E}]{\setlength{\rightskip}{0pt plus 5cm}int printf\-R\-B\-E (
+\begin{DoxyParamCaption}
+\item[{char}]{var, }
+\item[{F\-I\-L\-E $\ast$}]{stream}
+\end{DoxyParamCaption}
+)}}\label{_debug_8c_a450add2014d3b1c410c4225da137269a}
+
+
+Calls the students function '\hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug()}' to output the stream to. You should not call this function directly, instead use the standard function printf(). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em var} & Character to output \\
+\hline
+{\em $\ast$stream} & Place to put the character (stdout) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file Debug.\-c.
+
+
+
+References put\-Char\-Debug().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{_debug_8c_a450add2014d3b1c410c4225da137269a_cgraph}
+\end{center}
+\end{figure}
+
+

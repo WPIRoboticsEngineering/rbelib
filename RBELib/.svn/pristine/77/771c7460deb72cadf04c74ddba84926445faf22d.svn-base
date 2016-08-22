@@ -1,0 +1,57 @@
+\hypertarget{_d_a_c_8h}{\section{include/\-R\-B\-E\-Lib/\-D\-A\-C.h File Reference}
+\label{_d_a_c_8h}\index{include/\-R\-B\-E\-Lib/\-D\-A\-C.\-h@{include/\-R\-B\-E\-Lib/\-D\-A\-C.\-h}}
+}
+
+
+The header file and function prototypes for the D\-A\-C.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_d_a_c_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_d_a_c_8h_af5aa1a81aa11a072a5ab582d040b3edf}{set\-D\-A\-C} (int D\-A\-Cn, int S\-P\-I\-Val)
+\begin{DoxyCompactList}\small\item\em Set the D\-A\-C to the given value on the chosen channel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for the D\-A\-C. Use these functions to control the behavior of the D\-A\-C. \begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 21, 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_d_a_c_8h_source}{D\-A\-C.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_d_a_c_8h_af5aa1a81aa11a072a5ab582d040b3edf}{\index{D\-A\-C.\-h@{D\-A\-C.\-h}!set\-D\-A\-C@{set\-D\-A\-C}}
+\index{set\-D\-A\-C@{set\-D\-A\-C}!DAC.h@{D\-A\-C.\-h}}
+\subsubsection[{set\-D\-A\-C}]{\setlength{\rightskip}{0pt plus 5cm}void set\-D\-A\-C (
+\begin{DoxyParamCaption}
+\item[{int}]{D\-A\-Cn, }
+\item[{int}]{S\-P\-I\-Val}
+\end{DoxyParamCaption}
+)}}\label{_d_a_c_8h_af5aa1a81aa11a072a5ab582d040b3edf}
+
+
+Set the D\-A\-C to the given value on the chosen channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em D\-A\-Cn} & The channel that you want to set. \\
+\hline
+{\em S\-P\-I\-Val} & The value you want to set it to.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000005}{Todo}]Make the function that is able to set the D\-A\-C to a given value from 0 -\/ 4095. \end{DoxyRefDesc}

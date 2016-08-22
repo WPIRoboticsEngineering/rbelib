@@ -1,0 +1,50 @@
+09:01:40 **** Build of configuration Release for project C16 Testing ****
+make all 
+Building file: ../SRC/ADC.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/ADC.d" -MT"SRC/ADC.d" -c -o "SRC/ADC.o" "../SRC/ADC.c"
+Finished building: ../SRC/ADC.c
+ 
+Building file: ../SRC/DAC.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/DAC.d" -MT"SRC/DAC.d" -c -o "SRC/DAC.o" "../SRC/DAC.c"
+Finished building: ../SRC/DAC.c
+ 
+Building file: ../SRC/Periph.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/Periph.d" -MT"SRC/Periph.d" -c -o "SRC/Periph.o" "../SRC/Periph.c"
+Finished building: ../SRC/Periph.c
+ 
+Building file: ../SRC/SPI.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/SPI.d" -MT"SRC/SPI.d" -c -o "SRC/SPI.o" "../SRC/SPI.c"
+Finished building: ../SRC/SPI.c
+ 
+Building file: ../SRC/USART.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/USART.d" -MT"SRC/USART.d" -c -o "SRC/USART.o" "../SRC/USART.c"
+Finished building: ../SRC/USART.c
+ 
+Building file: ../SRC/accel.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/accel.d" -MT"SRC/accel.d" -c -o "SRC/accel.o" "../SRC/accel.c"
+Finished building: ../SRC/accel.c
+ 
+Building file: ../SRC/main.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/main.d" -MT"SRC/main.d" -c -o "SRC/main.o" "../SRC/main.c"
+Finished building: ../SRC/main.c
+ 
+Building file: ../SRC/timer.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/timer.d" -MT"SRC/timer.d" -c -o "SRC/timer.o" "../SRC/timer.c"
+Finished building: ../SRC/timer.c
+ 
+Building target: C16 Testing.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,C16 Testing.map -mmcu=atmega644p -o "C16 Testing.elf"  ./SRC/ADC.o ./SRC/DAC.o ./SRC/Periph.o ./SRC/SPI.o ./SRC/USART.o ./SRC/accel.o ./SRC/main.o ./SRC/timer.o   -lm -lRBELib
+avr-gcc.exe: Testing.map: No such file or directory
+make: *** [C16 Testing.elf] Error 1
+
+09:01:43 Build Finished (took 3s.194ms)
+

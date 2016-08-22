@@ -1,0 +1,68 @@
+\hypertarget{union____16bitreg__t}{\section{\+\_\+\+\_\+16bitreg\+\_\+t Union Reference}
+\label{union____16bitreg__t}\index{\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}}
+}
+
+
+Register\+: E\+E\+A\+R -\/ The E\+E\+P\+R\+O\+M Address Register. Page\+: 21.  
+
+
+
+
+{\ttfamily \#include $<$reg\+\_\+structs.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union____16bitreg__t_a9be891e55b5143ae68b469bb8a6078cb}{\_low}:8\\
+\>unsigned \hyperlink{union____16bitreg__t_a6a6132a8e0bb2790f3d7efcd7ee5b970}{\_high}:8\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union____16bitreg__t_a9dbb4f0c94a03ccdb3ea488d6de97e23}{\_w}:16\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Register\+: E\+E\+A\+R -\/ The E\+E\+P\+R\+O\+M Address Register. Page\+: 21. 
+
+Definition at line 193 of file reg\+\_\+structs.\+h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union____16bitreg__t_ab909e9b2412865a9e97536d692f260b9}{\subsubsection[{"@43}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union____16bitreg__t_ab909e9b2412865a9e97536d692f260b9}
+\hypertarget{union____16bitreg__t_a9fd4cd99474251f90c63248760bd2a0a}{\subsubsection[{"@45}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union____16bitreg__t_a9fd4cd99474251f90c63248760bd2a0a}
+\hypertarget{union____16bitreg__t_a6a6132a8e0bb2790f3d7efcd7ee5b970}{\index{\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}!\+\_\+high@{\+\_\+high}}
+\index{\+\_\+high@{\+\_\+high}!\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}}
+\subsubsection[{\+\_\+high}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+16bitreg\+\_\+t\+::\+\_\+high}}\label{union____16bitreg__t_a6a6132a8e0bb2790f3d7efcd7ee5b970}
+
+
+Definition at line 196 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union____16bitreg__t_a9be891e55b5143ae68b469bb8a6078cb}{\index{\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}!\+\_\+low@{\+\_\+low}}
+\index{\+\_\+low@{\+\_\+low}!\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}}
+\subsubsection[{\+\_\+low}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+16bitreg\+\_\+t\+::\+\_\+low}}\label{union____16bitreg__t_a9be891e55b5143ae68b469bb8a6078cb}
+
+
+Definition at line 195 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union____16bitreg__t_a9dbb4f0c94a03ccdb3ea488d6de97e23}{\index{\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}!\+\_\+w@{\+\_\+w}}
+\index{\+\_\+w@{\+\_\+w}!\+\_\+\+\_\+16bitreg\+\_\+t@{\+\_\+\+\_\+16bitreg\+\_\+t}}
+\subsubsection[{\+\_\+w}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+16bitreg\+\_\+t\+::\+\_\+w}}\label{union____16bitreg__t_a9dbb4f0c94a03ccdb3ea488d6de97e23}
+
+
+Definition at line 199 of file reg\+\_\+structs.\+h.
+
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\+R\+B\+E\+Lib/\hyperlink{reg__structs_8h}{reg\+\_\+structs.\+h}\end{DoxyCompactItemize}

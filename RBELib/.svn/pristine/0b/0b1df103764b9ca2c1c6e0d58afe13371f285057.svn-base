@@ -1,0 +1,94 @@
+\hypertarget{_s_p_i_8h}{\section{include/\-R\-B\-E\-Lib/\-S\-P\-I.h File Reference}
+\label{_s_p_i_8h}\index{include/\-R\-B\-E\-Lib/\-S\-P\-I.\-h@{include/\-R\-B\-E\-Lib/\-S\-P\-I.\-h}}
+}
+
+
+The header file and function prototypes for the S\-P\-I.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_s_p_i_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_s_p_i_8h_a070402cc6c1cae693d10f59f9c483f76}{init\-S\-P\-I} ()
+\begin{DoxyCompactList}\small\item\em Initializes the S\-P\-I bus for communication with all of your S\-P\-I devices. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{_s_p_i_8h_a4d2cd713b65091a59a9a2ee50b28bdf1}{spi\-Transceive} (\hyperlink{_r_b_e_lib_8h_aec93e83855ac17c3c25c55c37ca186dd}{B\-Y\-T\-E} data)
+\begin{DoxyCompactList}\small\item\em Send and receive a byte out of the M\-O\-S\-I line. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for the S\-P\-I. \begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000001}{Bug}]While not a bug, some students have problems with some of the S\-P\-I devices where their code will not work after they send a command. To fix this, you may have to toggle the S\-S line once after sending your command and then disable it once more. This is because some of the devices need the toggle to load the registers and then execute the command.\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000002}{Bug}]While not a bug, the D\-A\-C S\-S may need to be toggled at startup. This is only something that matters during a soft reset but should be done anyway during your initialization for S\-P\-I.\end{DoxyRefDesc}
+
+
+\begin{DoxyAuthor}{Author}
+kamiro87 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 31, 2010
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Justin Barrett 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 23, 2011
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 20, 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_s_p_i_8h_source}{S\-P\-I.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_s_p_i_8h_a070402cc6c1cae693d10f59f9c483f76}{\index{S\-P\-I.\-h@{S\-P\-I.\-h}!init\-S\-P\-I@{init\-S\-P\-I}}
+\index{init\-S\-P\-I@{init\-S\-P\-I}!SPI.h@{S\-P\-I.\-h}}
+\subsubsection[{init\-S\-P\-I}]{\setlength{\rightskip}{0pt plus 5cm}void init\-S\-P\-I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_s_p_i_8h_a070402cc6c1cae693d10f59f9c483f76}
+
+
+Initializes the S\-P\-I bus for communication with all of your S\-P\-I devices. 
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000024}{Todo}]Create the function that will allow you to initialize the S\-P\-I in a mode compatible with all devices. Do not forget to deassert all of your S\-S lines! \end{DoxyRefDesc}
+\hypertarget{_s_p_i_8h_a4d2cd713b65091a59a9a2ee50b28bdf1}{\index{S\-P\-I.\-h@{S\-P\-I.\-h}!spi\-Transceive@{spi\-Transceive}}
+\index{spi\-Transceive@{spi\-Transceive}!SPI.h@{S\-P\-I.\-h}}
+\subsubsection[{spi\-Transceive}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char spi\-Transceive (
+\begin{DoxyParamCaption}
+\item[{{\bf B\-Y\-T\-E}}]{data}
+\end{DoxyParamCaption}
+)}}\label{_s_p_i_8h_a4d2cd713b65091a59a9a2ee50b28bdf1}
+
+
+Send and receive a byte out of the M\-O\-S\-I line. 
+
+Please note that even if you do not want to receive any data back from a S\-P\-I device, the S\-P\-I standard requires you still receive something back even if it is junk data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The byte to send down the S\-P\-I bus. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value The byte shifted in during transmit
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000025}{Todo}]Make a function that will send a byte of data through the S\-P\-I and return whatever was sent back. \end{DoxyRefDesc}

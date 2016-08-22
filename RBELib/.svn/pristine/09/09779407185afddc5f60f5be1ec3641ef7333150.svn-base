@@ -1,0 +1,59 @@
+\hypertarget{union___w_o_r_d___v_a_l}{\section{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L Union Reference}
+\label{union___w_o_r_d___v_a_l}\index{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}}
+}
+
+
+{\ttfamily \#include $<$R\+B\+E\+Lib.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_r_b_e_lib_8h_a4cfc63e05db4883dc4b60a1245a9ffc5}{W\+O\+R\+D} \hyperlink{union___w_o_r_d___v_a_l_a3b0f626d2e15ff5aa21804dd598d23c9}{Val}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>\hyperlink{_r_b_e_lib_8h_aec93e83855ac17c3c25c55c37ca186dd}{BYTE} \hyperlink{union___w_o_r_d___v_a_l_aa012d9c31fb3018cbe4d6a5052d98f51}{LB}\\
+\>\hyperlink{_r_b_e_lib_8h_aec93e83855ac17c3c25c55c37ca186dd}{BYTE} \hyperlink{union___w_o_r_d___v_a_l_a912b51805454255a794b26e6646c0cf1}{HB}\\
+\} \hyperlink{union___w_o_r_d___v_a_l_ad7a0075252b41d01f900c602d940e0aa}{byte}\\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 52 of file R\+B\+E\+Lib.\+h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union___w_o_r_d___v_a_l_ad7a0075252b41d01f900c602d940e0aa}{\index{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}!byte@{byte}}
+\index{byte@{byte}!\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}}
+\subsubsection[{byte}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \}   \+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L\+::byte}}\label{union___w_o_r_d___v_a_l_ad7a0075252b41d01f900c602d940e0aa}
+\hypertarget{union___w_o_r_d___v_a_l_a912b51805454255a794b26e6646c0cf1}{\index{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}!H\+B@{H\+B}}
+\index{H\+B@{H\+B}!\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}}
+\subsubsection[{H\+B}]{\setlength{\rightskip}{0pt plus 5cm}{\bf B\+Y\+T\+E} \+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L\+::\+H\+B}}\label{union___w_o_r_d___v_a_l_a912b51805454255a794b26e6646c0cf1}
+
+
+Definition at line 58 of file R\+B\+E\+Lib.\+h.
+
+\hypertarget{union___w_o_r_d___v_a_l_aa012d9c31fb3018cbe4d6a5052d98f51}{\index{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}!L\+B@{L\+B}}
+\index{L\+B@{L\+B}!\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}}
+\subsubsection[{L\+B}]{\setlength{\rightskip}{0pt plus 5cm}{\bf B\+Y\+T\+E} \+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L\+::\+L\+B}}\label{union___w_o_r_d___v_a_l_aa012d9c31fb3018cbe4d6a5052d98f51}
+
+
+Definition at line 57 of file R\+B\+E\+Lib.\+h.
+
+\hypertarget{union___w_o_r_d___v_a_l_a3b0f626d2e15ff5aa21804dd598d23c9}{\index{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}!Val@{Val}}
+\index{Val@{Val}!\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L@{\+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L}}
+\subsubsection[{Val}]{\setlength{\rightskip}{0pt plus 5cm}{\bf W\+O\+R\+D} \+\_\+\+W\+O\+R\+D\+\_\+\+V\+A\+L\+::\+Val}}\label{union___w_o_r_d___v_a_l_a3b0f626d2e15ff5aa21804dd598d23c9}
+
+
+Definition at line 54 of file R\+B\+E\+Lib.\+h.
+
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\+R\+B\+E\+Lib/\hyperlink{_r_b_e_lib_8h}{R\+B\+E\+Lib.\+h}\end{DoxyCompactItemize}

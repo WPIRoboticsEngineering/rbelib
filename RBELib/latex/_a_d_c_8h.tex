@@ -1,0 +1,129 @@
+\hypertarget{_a_d_c_8h}{\section{include/\-R\-B\-E\-Lib/\-A\-D\-C.h File Reference}
+\label{_a_d_c_8h}\index{include/\-R\-B\-E\-Lib/\-A\-D\-C.\-h@{include/\-R\-B\-E\-Lib/\-A\-D\-C.\-h}}
+}
+
+
+The header file and function prototypes for the A\-D\-C.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_a_d_c_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_a_d_c_8h_a1f27a9e1c089f93efc89cdce78739cba}{init\-A\-D\-C} (int channel)
+\begin{DoxyCompactList}\small\item\em Initializes the A\-D\-C and make one channel active. You can choose to use either interrupts or polling to read the desired channel. \end{DoxyCompactList}\item 
+void \hyperlink{_a_d_c_8h_a3eef680fc13f11498db80fb145cab8f9}{clear\-A\-D\-C} (int channel)
+\begin{DoxyCompactList}\small\item\em Disables A\-D\-C functionality and clears any saved values (globals). \end{DoxyCompactList}\item 
+unsigned short \hyperlink{_a_d_c_8h_a9f560657fb624f98de3161651f3d4385}{get\-A\-D\-C} (int channel)
+\begin{DoxyCompactList}\small\item\em Run a conversion on and get the analog value from one A\-D\-C channel if using polling. \end{DoxyCompactList}\item 
+void \hyperlink{_a_d_c_8h_a8174ca24b578eaf4f82f44d6ce44edb0}{change\-A\-D\-C} (int channel)
+\begin{DoxyCompactList}\small\item\em Change the channel the A\-D\-C is sampling if using interrupts. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for the A\-D\-C. For single ended conversion, the A\-D\-C value an be found from the voltage using\-: \[ \frac {V_{in} * 1024}{V_{ref}} \] \begin{DoxyAuthor}{Author}
+Kevin Harrington 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+February 11, 2010
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Justin Barrett 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 23, 2011
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 19, 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_a_d_c_8h_source}{A\-D\-C.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_a_d_c_8h_a8174ca24b578eaf4f82f44d6ce44edb0}{\index{A\-D\-C.\-h@{A\-D\-C.\-h}!change\-A\-D\-C@{change\-A\-D\-C}}
+\index{change\-A\-D\-C@{change\-A\-D\-C}!ADC.h@{A\-D\-C.\-h}}
+\subsubsection[{change\-A\-D\-C}]{\setlength{\rightskip}{0pt plus 5cm}void change\-A\-D\-C (
+\begin{DoxyParamCaption}
+\item[{int}]{channel}
+\end{DoxyParamCaption}
+)}}\label{_a_d_c_8h_a8174ca24b578eaf4f82f44d6ce44edb0}
+
+
+Change the channel the A\-D\-C is sampling if using interrupts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & The A\-D\-C channel to switch to.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000004}{Todo}]Create a way to switch A\-D\-C channels if you are using interrupts. \end{DoxyRefDesc}
+\hypertarget{_a_d_c_8h_a3eef680fc13f11498db80fb145cab8f9}{\index{A\-D\-C.\-h@{A\-D\-C.\-h}!clear\-A\-D\-C@{clear\-A\-D\-C}}
+\index{clear\-A\-D\-C@{clear\-A\-D\-C}!ADC.h@{A\-D\-C.\-h}}
+\subsubsection[{clear\-A\-D\-C}]{\setlength{\rightskip}{0pt plus 5cm}void clear\-A\-D\-C (
+\begin{DoxyParamCaption}
+\item[{int}]{channel}
+\end{DoxyParamCaption}
+)}}\label{_a_d_c_8h_a3eef680fc13f11498db80fb145cab8f9}
+
+
+Disables A\-D\-C functionality and clears any saved values (globals). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & The A\-D\-C channel to disable.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000002}{Todo}]Create the corresponding function to clear the last A\-D\-C calculation register and disconnect the input to the A\-D\-C if desired. \end{DoxyRefDesc}
+\hypertarget{_a_d_c_8h_a9f560657fb624f98de3161651f3d4385}{\index{A\-D\-C.\-h@{A\-D\-C.\-h}!get\-A\-D\-C@{get\-A\-D\-C}}
+\index{get\-A\-D\-C@{get\-A\-D\-C}!ADC.h@{A\-D\-C.\-h}}
+\subsubsection[{get\-A\-D\-C}]{\setlength{\rightskip}{0pt plus 5cm}unsigned short get\-A\-D\-C (
+\begin{DoxyParamCaption}
+\item[{int}]{channel}
+\end{DoxyParamCaption}
+)}}\label{_a_d_c_8h_a9f560657fb624f98de3161651f3d4385}
+
+
+Run a conversion on and get the analog value from one A\-D\-C channel if using polling. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & The A\-D\-C channel to run a conversion on. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+adc\-Val The 8-\/10 bit value returned by the A\-D\-C conversion. The precision depends on your settings and how much accuracy you desire.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000003}{Todo}]Create the corresponding function to obtain the value of the last calculation if you are using polling. \end{DoxyRefDesc}
+\hypertarget{_a_d_c_8h_a1f27a9e1c089f93efc89cdce78739cba}{\index{A\-D\-C.\-h@{A\-D\-C.\-h}!init\-A\-D\-C@{init\-A\-D\-C}}
+\index{init\-A\-D\-C@{init\-A\-D\-C}!ADC.h@{A\-D\-C.\-h}}
+\subsubsection[{init\-A\-D\-C}]{\setlength{\rightskip}{0pt plus 5cm}void init\-A\-D\-C (
+\begin{DoxyParamCaption}
+\item[{int}]{channel}
+\end{DoxyParamCaption}
+)}}\label{_a_d_c_8h_a1f27a9e1c089f93efc89cdce78739cba}
+
+
+Initializes the A\-D\-C and make one channel active. You can choose to use either interrupts or polling to read the desired channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & The A\-D\-C channel to initialize.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000001}{Todo}]Create the corresponding function to initialize the A\-D\-C using the channel parameter. \end{DoxyRefDesc}

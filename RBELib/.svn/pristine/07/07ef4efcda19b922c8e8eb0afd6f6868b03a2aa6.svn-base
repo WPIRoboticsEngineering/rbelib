@@ -1,0 +1,18 @@
+<map id="include/RBELib/SetServo.h" name="include/RBELib/SetServo.h">
+<area shape="rect" id="node2" href="$_r_b_e_lib_8h.html" title="This is a meta&#45;header. It includes all the other header files that are needed for RBELib as well as s..." alt="" coords="903,80,1028,107"/>
+<area shape="rect" id="node9" href="$reg__structs_8h.html" title="This file redefines all of the registers of the ATmega644p as structs to allow for easy access to ind..." alt="" coords="1289,229,1388,256"/>
+<area shape="rect" id="node10" href="$_a_d_c_8h.html" title="The header file and function prototypes for the ADC. " alt="" coords="646,155,706,181"/>
+<area shape="rect" id="node11" href="$_d_a_c_8h.html" title="The header file and function prototypes for the DAC. " alt="" coords="730,155,790,181"/>
+<area shape="rect" id="node12" href="$_debug_8h.html" title="Allows for the use of printf() on the 3001 board. Simply rebinds the stdout to the UART..." alt="" coords="814,155,885,181"/>
+<area shape="rect" id="node13" href="$_u_s_a_r_t_debug_8h.html" title="The header file and function prototypes for the USART. " alt="" coords="909,155,1022,181"/>
+<area shape="rect" id="node14" href="$timer_8h.html" title="The header file and function prototypes for Timers 0&#45;2. " alt="" coords="1046,155,1109,181"/>
+<area shape="rect" id="node15" href="$_periph_8h.html" title="The header file and function prototypes for the peripherals (IR, encoder and accelerometer). " alt="" coords="1133,155,1203,181"/>
+<area shape="rect" id="node16" href="$pot_8h.html" title="The header file and function prototypes for the potentiometers. " alt="" coords="1228,155,1279,181"/>
+<area shape="rect" id="node17" href="$_p_i_d_8h.html" title="The header file for PID constants and calculations. " alt="" coords="1303,155,1358,181"/>
+<area shape="rect" id="node18" href="$_p_o_r_t_adriver_8h.html" title="The header file and function prototypes for PORTA. " alt="" coords="1383,155,1489,181"/>
+<area shape="rect" id="node19" href="$_p_o_r_t_bdriver_8h.html" title="The header file and function prototypes for PORTB. " alt="" coords="1513,155,1620,181"/>
+<area shape="rect" id="node20" href="$_p_o_r_t_cdriver_8h.html" title="The header file and function prototypes for PORTC. " alt="" coords="1644,155,1751,181"/>
+<area shape="rect" id="node21" href="$_p_o_r_t_ddriver_8h.html" title="The header file and function prototypes for PORTD. " alt="" coords="1775,155,1881,181"/>
+<area shape="rect" id="node22" href="$_s_p_i_8h.html" title="The header file and function prototypes for the SPI. " alt="" coords="1906,155,1961,181"/>
+<area shape="rect" id="node23" href="$_r_b_e_defines_8h.html" title="RBEBoard/RBEDefines.h" alt="" coords="1985,155,2153,181"/>
+</map>

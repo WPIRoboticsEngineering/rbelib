@@ -1,0 +1,196 @@
+\hypertarget{_set_servo_8h}{\section{include/\-R\-B\-E\-Lib/\-Set\-Servo.h File Reference}
+\label{_set_servo_8h}\index{include/\-R\-B\-E\-Lib/\-Set\-Servo.\-h@{include/\-R\-B\-E\-Lib/\-Set\-Servo.\-h}}
+}
+
+
+This file allows for using the Ser\-Sevo function to move the conveyor and gripper.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_set_servo_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_set_servo_8h_a4b355291fe6b8ba8e167ab0faa862e45}{C\-L\-K}~18432000
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_set_servo_8h_aacba653c33e27af6b2ea227100a4217b}{set\-Servo} (int Pin, int Value)
+\begin{DoxyCompactList}\small\item\em Set a servo to a desired value. \end{DoxyCompactList}\item 
+void \hyperlink{_set_servo_8h_acf43396e8eedf7c983cb59202c5af432}{init\-Alt\-Com} (unsigned long baudrate)
+\begin{DoxyCompactList}\small\item\em Used to initialize U\-A\-R\-T0 for communication with the coprocessor. It should never be called manually. \end{DoxyCompactList}\item 
+void \hyperlink{_set_servo_8h_a7bf02a3a3e6ee16ae38c3a03bf028023}{set\-Char\-Debug} (char byte\-To\-Send)
+\begin{DoxyCompactList}\small\item\em Used to put a char on U\-A\-R\-T0. It should never be called manually and is used by printf(). \end{DoxyCompactList}\item 
+void \hyperlink{_set_servo_8h_a3d09a92ac746ecc79b3b6b107357853b}{co\-Printf} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em String to send to the coprocessor via U\-A\-R\-T0. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file allows for using the Ser\-Sevo function to move the conveyor and gripper. \begin{DoxyAuthor}{Author}
+cwrus 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Jun 28, 2012
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 9, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_set_servo_8h_source}{Set\-Servo.\-h}.
+
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_set_servo_8h_a4b355291fe6b8ba8e167ab0faa862e45}{\index{Set\-Servo.\-h@{Set\-Servo.\-h}!C\-L\-K@{C\-L\-K}}
+\index{C\-L\-K@{C\-L\-K}!SetServo.h@{Set\-Servo.\-h}}
+\subsubsection[{C\-L\-K}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\-L\-K~18432000}}\label{_set_servo_8h_a4b355291fe6b8ba8e167ab0faa862e45}
+
+
+Definition at line 16 of file Set\-Servo.\-h.
+
+
+
+Referenced by init\-Alt\-Com().
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_set_servo_8h_a3d09a92ac746ecc79b3b6b107357853b}{\index{Set\-Servo.\-h@{Set\-Servo.\-h}!co\-Printf@{co\-Printf}}
+\index{co\-Printf@{co\-Printf}!SetServo.h@{Set\-Servo.\-h}}
+\subsubsection[{co\-Printf}]{\setlength{\rightskip}{0pt plus 5cm}void co\-Printf (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{str}
+\end{DoxyParamCaption}
+)}}\label{_set_servo_8h_a3d09a92ac746ecc79b3b6b107357853b}
+
+
+String to send to the coprocessor via U\-A\-R\-T0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$str} & String to send. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file Set\-Servo.\-c.
+
+
+
+References set\-Char\-Debug().
+
+
+
+Referenced by set\-Servo().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{_set_servo_8h_a3d09a92ac746ecc79b3b6b107357853b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{_set_servo_8h_acf43396e8eedf7c983cb59202c5af432}{\index{Set\-Servo.\-h@{Set\-Servo.\-h}!init\-Alt\-Com@{init\-Alt\-Com}}
+\index{init\-Alt\-Com@{init\-Alt\-Com}!SetServo.h@{Set\-Servo.\-h}}
+\subsubsection[{init\-Alt\-Com}]{\setlength{\rightskip}{0pt plus 5cm}void init\-Alt\-Com (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{baudrate}
+\end{DoxyParamCaption}
+)}}\label{_set_servo_8h_acf43396e8eedf7c983cb59202c5af432}
+
+
+Used to initialize U\-A\-R\-T0 for communication with the coprocessor. It should never be called manually. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em baudrate} & Baud rate of the communication line in bps. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file Set\-Servo.\-c.
+
+
+
+References C\-L\-K.
+
+
+
+Referenced by init\-R\-B\-E\-Lib().
+
+\hypertarget{_set_servo_8h_a7bf02a3a3e6ee16ae38c3a03bf028023}{\index{Set\-Servo.\-h@{Set\-Servo.\-h}!set\-Char\-Debug@{set\-Char\-Debug}}
+\index{set\-Char\-Debug@{set\-Char\-Debug}!SetServo.h@{Set\-Servo.\-h}}
+\subsubsection[{set\-Char\-Debug}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Char\-Debug (
+\begin{DoxyParamCaption}
+\item[{char}]{byte\-To\-Send}
+\end{DoxyParamCaption}
+)}}\label{_set_servo_8h_a7bf02a3a3e6ee16ae38c3a03bf028023}
+
+
+Used to put a char on U\-A\-R\-T0. It should never be called manually and is used by printf(). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em byte\-To\-Send} & Character to send \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 57 of file Set\-Servo.\-c.
+
+
+
+Referenced by co\-Printf().
+
+\hypertarget{_set_servo_8h_aacba653c33e27af6b2ea227100a4217b}{\index{Set\-Servo.\-h@{Set\-Servo.\-h}!set\-Servo@{set\-Servo}}
+\index{set\-Servo@{set\-Servo}!SetServo.h@{Set\-Servo.\-h}}
+\subsubsection[{set\-Servo}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Servo (
+\begin{DoxyParamCaption}
+\item[{int}]{Pin, }
+\item[{int}]{Value}
+\end{DoxyParamCaption}
+)}}\label{_set_servo_8h_aacba653c33e27af6b2ea227100a4217b}
+
+
+Set a servo to a desired value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pin} & Pin number. \\
+\hline
+{\em Value} & Value to set the pin to. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 17 of file Set\-Servo.\-c.
+
+
+
+References co\-Printf().
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{_set_servo_8h_aacba653c33e27af6b2ea227100a4217b_cgraph}
+\end{center}
+\end{figure}
+
+

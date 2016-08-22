@@ -1,0 +1,161 @@
+\hypertarget{reg__structs_8h}{\section{include/\-R\-B\-E\-Lib/reg\-\_\-structs.h File Reference}
+\label{reg__structs_8h}\index{include/\-R\-B\-E\-Lib/reg\-\_\-structs.\-h@{include/\-R\-B\-E\-Lib/reg\-\_\-structs.\-h}}
+}
+
+
+This file redefines some of the registers of the A\-Tmega644p as structs to allow for easy access to individual bit fields in each register. The general syntax is $<$register name$>$bits.\-\_\-$<$bitfield name$>$.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{reg__structs_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t}
+\begin{DoxyCompactList}\small\item\em Generic byte register. \end{DoxyCompactList}\item 
+struct \hyperlink{struct_____s_p_i_p_o_r_tbits__t}{\-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t}
+\begin{DoxyCompactList}\small\item\em S\-P\-I port. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Abits \hyperlink{reg__structs_8h_ad6e205a0310f0e86e8681e9aaab5fbca}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x20\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Abits \hyperlink{reg__structs_8h_ac254b9b3060f51b614af5b02211be437}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x21\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Abits \hyperlink{reg__structs_8h_add00742401aeaffbf415c2490de21b79}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x22\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Bbits \hyperlink{reg__structs_8h_a2cab06cafd8e4cc3f8ac8a8f00b348eb}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x23\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Bbits \hyperlink{reg__structs_8h_a8e2fa6a92bab4d219b942f3c9757da11}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x24\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Bbits \hyperlink{reg__structs_8h_aefd503781828d2a4d9f5d81c4d31adc5}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x25\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Cbits \hyperlink{reg__structs_8h_a32e9140350d7b847044ddb3719645307}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x26\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Cbits \hyperlink{reg__structs_8h_af59ce364ffa5af95c7c426e37849b83e}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x27\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Cbits \hyperlink{reg__structs_8h_a1642f34d4bbcd37125c90ed0097cd28b}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x28\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Dbits \hyperlink{reg__structs_8h_ae5b2690ca1b162c95ab5d8252163ade6}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x29\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Dbits \hyperlink{reg__structs_8h_a19737fb82107205a5427c68239335949}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x2\-A\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\item 
+volatile \hyperlink{struct____8bitreg__t}{\-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Dbits \hyperlink{reg__structs_8h_aac911c9b739c0cd88146e5bad68922d1}{\-\_\-\-\_\-asm\-\_\-\-\_\-} (\char`\"{}0x2\-B\char`\"{}) \-\_\-\-\_\-attribute\-\_\-\-\_\-((section(\char`\"{}sfr\char`\"{})))
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file redefines some of the registers of the A\-Tmega644p as structs to allow for easy access to individual bit fields in each register. The general syntax is $<$register name$>$bits.\-\_\-$<$bitfield name$>$. \begin{DoxyAuthor}{Author}
+Peter Alley 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+January 26, 2010
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Justin Barrett 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 23, 2011
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 21, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{reg__structs_8h_source}{reg\-\_\-structs.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{reg__structs_8h_ad6e205a0310f0e86e8681e9aaab5fbca}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Abits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x20\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_ad6e205a0310f0e86e8681e9aaab5fbca}
+\hypertarget{reg__structs_8h_ac254b9b3060f51b614af5b02211be437}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Abits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x21\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_ac254b9b3060f51b614af5b02211be437}
+\hypertarget{reg__structs_8h_add00742401aeaffbf415c2490de21b79}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Abits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x22\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_add00742401aeaffbf415c2490de21b79}
+\hypertarget{reg__structs_8h_a2cab06cafd8e4cc3f8ac8a8f00b348eb}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Bbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x23\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_a2cab06cafd8e4cc3f8ac8a8f00b348eb}
+\hypertarget{reg__structs_8h_a8e2fa6a92bab4d219b942f3c9757da11}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t} S\-P\-I\-D\-D\-Rbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x24\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_a8e2fa6a92bab4d219b942f3c9757da11}
+\hypertarget{reg__structs_8h_aefd503781828d2a4d9f5d81c4d31adc5}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-\-S\-P\-I\-P\-O\-R\-Tbits\-\_\-t} S\-P\-I\-P\-O\-R\-Tbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x25\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_aefd503781828d2a4d9f5d81c4d31adc5}
+\hypertarget{reg__structs_8h_a32e9140350d7b847044ddb3719645307}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Cbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x26\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_a32e9140350d7b847044ddb3719645307}
+\hypertarget{reg__structs_8h_af59ce364ffa5af95c7c426e37849b83e}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Cbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x27\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_af59ce364ffa5af95c7c426e37849b83e}
+\hypertarget{reg__structs_8h_a1642f34d4bbcd37125c90ed0097cd28b}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Cbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x28\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_a1642f34d4bbcd37125c90ed0097cd28b}
+\hypertarget{reg__structs_8h_ae5b2690ca1b162c95ab5d8252163ade6}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-I\-N\-Dbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x29\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_ae5b2690ca1b162c95ab5d8252163ade6}
+\hypertarget{reg__structs_8h_a19737fb82107205a5427c68239335949}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} D\-D\-R\-Dbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x2\-A\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_a19737fb82107205a5427c68239335949}
+\hypertarget{reg__structs_8h_aac911c9b739c0cd88146e5bad68922d1}{\index{reg\-\_\-structs.\-h@{reg\-\_\-structs.\-h}!\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}}
+\index{\-\_\-\-\_\-asm\-\_\-\-\_\-@{\-\_\-\-\_\-asm\-\_\-\-\_\-}!reg_structs.h@{reg\-\_\-structs.\-h}}
+\subsubsection[{\-\_\-\-\_\-asm\-\_\-\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}volatile {\bf \-\_\-\-\_\-8bitreg\-\_\-t} P\-O\-R\-T\-Dbits \-\_\-\-\_\-asm\-\_\-\-\_\- (
+\begin{DoxyParamCaption}
+\item[{\char`\"{}0x2\-B\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{reg__structs_8h_aac911c9b739c0cd88146e5bad68922d1}

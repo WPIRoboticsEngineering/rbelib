@@ -1,0 +1,10 @@
+\hypertarget{datatypes_byte1}{}\section{1 Byte}\label{datatypes_byte1}
+\par
+ char \hypertarget{datatypes_byte2}{}\section{2 Bytes}\label{datatypes_byte2}
+short \par
+ int \hypertarget{datatypes_byte3}{}\section{4 Bytes}\label{datatypes_byte3}
+long \par
+ float \par
+ double \par
+ long double \hypertarget{datatypes_byte8}{}\section{8 Bytes}\label{datatypes_byte8}
+long long 

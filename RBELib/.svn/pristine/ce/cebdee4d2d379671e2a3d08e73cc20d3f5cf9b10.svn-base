@@ -1,0 +1,80 @@
+\hypertarget{pot_8h}{\section{include/\-R\-B\-E\-Lib/pot.h File Reference}
+\label{pot_8h}\index{include/\-R\-B\-E\-Lib/pot.\-h@{include/\-R\-B\-E\-Lib/pot.\-h}}
+}
+
+
+The header file and function prototypes for the potentiometers.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{pot_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{pot_8h_a6572afa21880ee8fe8e834b7167e111b}{pot\-Angle} (int pot)
+\begin{DoxyCompactList}\small\item\em Find the angle of the given potentiometer. \end{DoxyCompactList}\item 
+int \hyperlink{pot_8h_ac8f71572a099805fc4cfcc793260e98b}{pot\-Volts} (int pot)
+\begin{DoxyCompactList}\small\item\em Find the voltage value of the given potentiometer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for the potentiometers. Use these functions to read the values from the pots. \begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 17 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{pot_8h_source}{pot.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{pot_8h_a6572afa21880ee8fe8e834b7167e111b}{\index{pot.\-h@{pot.\-h}!pot\-Angle@{pot\-Angle}}
+\index{pot\-Angle@{pot\-Angle}!pot.h@{pot.\-h}}
+\subsubsection[{pot\-Angle}]{\setlength{\rightskip}{0pt plus 5cm}int pot\-Angle (
+\begin{DoxyParamCaption}
+\item[{int}]{pot}
+\end{DoxyParamCaption}
+)}}\label{pot_8h_a6572afa21880ee8fe8e834b7167e111b}
+
+
+Find the angle of the given potentiometer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pot} & The pot to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+angle Angle of the potentiometer.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000022}{Todo}]Calculate the angle using the A\-D\-C reading. \end{DoxyRefDesc}
+\hypertarget{pot_8h_ac8f71572a099805fc4cfcc793260e98b}{\index{pot.\-h@{pot.\-h}!pot\-Volts@{pot\-Volts}}
+\index{pot\-Volts@{pot\-Volts}!pot.h@{pot.\-h}}
+\subsubsection[{pot\-Volts}]{\setlength{\rightskip}{0pt plus 5cm}int pot\-Volts (
+\begin{DoxyParamCaption}
+\item[{int}]{pot}
+\end{DoxyParamCaption}
+)}}\label{pot_8h_ac8f71572a099805fc4cfcc793260e98b}
+
+
+Find the voltage value of the given potentiometer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pot} & The pot to get the value of. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+volts Voltage of potentiometer.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000023}{Todo}]Convert the A\-D\-C value into a voltage in m\-V (so no floats needed). \end{DoxyRefDesc}

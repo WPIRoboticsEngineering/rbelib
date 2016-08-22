@@ -1,0 +1,25 @@
+var _slave_selects_8h =
+[
+    [ "AUX_DAC_SS", "_slave_selects_8h.html#ad742e387c55998038173396b907993a6", null ],
+    [ "AUX_DAC_SS_ddr", "_slave_selects_8h.html#aa6a037d93a6cb48adee845861a4c866c", null ],
+    [ "DAC_SS", "_slave_selects_8h.html#a7dbdb819db0851ee13ca6cbe1dc5f4c5", null ],
+    [ "DAC_SS_ddr", "_slave_selects_8h.html#ae1575f1d0b95f42bc9011fadf88b80b6", null ],
+    [ "ENCODER_IRQ", "_slave_selects_8h.html#a4148affed266edbb6bf487893da864d3", null ],
+    [ "ENCODER_IRQ_ddr", "_slave_selects_8h.html#aedd2ac127b6656ad063c0970455e5497", null ],
+    [ "ENCODER_SS_0", "_slave_selects_8h.html#ae1f19ab1d529611ee82a30686b31028e", null ],
+    [ "ENCODER_SS_0_ddr", "_slave_selects_8h.html#a34df7b0956f5a3b800db76cb529f13be", null ],
+    [ "ENCODER_SS_1", "_slave_selects_8h.html#a9ab6d00d2ab688db5600737c60ddb314", null ],
+    [ "ENCODER_SS_1_ddr", "_slave_selects_8h.html#aee3aa0c524fe3c2d1649afe3efd8cc72", null ],
+    [ "ENCODER_SS_2", "_slave_selects_8h.html#a203433243d028bc175021c37dc0802f6", null ],
+    [ "ENCODER_SS_2_ddr", "_slave_selects_8h.html#a742de3b51bc439fd401f864b1f3b91d1", null ],
+    [ "ENCODER_SS_3", "_slave_selects_8h.html#a086c9cf35f25608a5ff10bebea24a48c", null ],
+    [ "ENCODER_SS_3_ddr", "_slave_selects_8h.html#ab567f89cdb8e93ef39dac964fabcb085", null ],
+    [ "SPARE_SS_ddr", "_slave_selects_8h.html#a427e16ab2edb4a8994821503d6991fb7", null ],
+    [ "SPI_MASTER_SS", "_slave_selects_8h.html#aec89105ab45250a756eb3d3638a4e92e", null ],
+    [ "SPI_MISO", "_slave_selects_8h.html#ab142cc77dfa97010c9d2b616d0992b64", null ],
+    [ "SPI_MISO_DDR", "_slave_selects_8h.html#a366f58da009f5d03b8753a41a5c57d84", null ],
+    [ "SPI_MOSI", "_slave_selects_8h.html#a7dbebab5f7dd57885adccf6711b13592", null ],
+    [ "SPI_MOSI_DDR", "_slave_selects_8h.html#af853ff26d66b9887d2212ef020cb22a4", null ],
+    [ "SPI_SCK", "_slave_selects_8h.html#a750ca7c9b92cfc9e57272ff3a49db48b", null ],
+    [ "SPI_SCK_DDR", "_slave_selects_8h.html#a5349415ea22a5febfe208e41e283e09e", null ]
+];

@@ -1,0 +1,123 @@
+\hypertarget{_u_s_a_r_t_debug_8h}{\section{include/\-R\-B\-E\-Lib/\-U\-S\-A\-R\-T\-Debug.h File Reference}
+\label{_u_s_a_r_t_debug_8h}\index{include/\-R\-B\-E\-Lib/\-U\-S\-A\-R\-T\-Debug.\-h@{include/\-R\-B\-E\-Lib/\-U\-S\-A\-R\-T\-Debug.\-h}}
+}
+
+
+The header file and function prototypes for U\-S\-A\-R\-T1.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_u_s_a_r_t_debug_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_u_s_a_r_t_debug_8h_ae9dc3b6e28948a9d8788412ce6a603cb}{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D}~115200
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_u_s_a_r_t_debug_8h_a9a96eb5e6b5a13fff8ed69716e76a314}{debug\-U\-S\-A\-R\-T\-Init} (unsigned long baudrate)
+\begin{DoxyCompactList}\small\item\em Initializes U\-S\-A\-R\-T1 as a print terminal to the P\-C. This function must check the incoming baudrate against the valid baudrates from the data-\/sheet. If the baudrate is invalid, then the D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D constant must be used instead. \end{DoxyCompactList}\item 
+void \hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug} (char byte\-To\-Send)
+\begin{DoxyCompactList}\small\item\em Sends one byte to the U\-S\-A\-R\-T1 Tx pin (Transmits one byte). \end{DoxyCompactList}\item 
+unsigned char \hyperlink{_u_s_a_r_t_debug_8h_aeaa27830bd87dcec2dd03213b02f22aa}{get\-Char\-Debug} (void)
+\begin{DoxyCompactList}\small\item\em Recieves one byte of data from the serial port (i.\-e. from the P\-C). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for U\-S\-A\-R\-T1. \begin{DoxyAuthor}{Author}
+Kevin Harrington 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 20, 2010
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Justin Barrett 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 25, 2011
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 20, 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_u_s_a_r_t_debug_8h_source}{U\-S\-A\-R\-T\-Debug.\-h}.
+
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_u_s_a_r_t_debug_8h_ae9dc3b6e28948a9d8788412ce6a603cb}{\index{U\-S\-A\-R\-T\-Debug.\-h@{U\-S\-A\-R\-T\-Debug.\-h}!D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D@{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D@{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D}!USARTDebug.h@{U\-S\-A\-R\-T\-Debug.\-h}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D~115200}}\label{_u_s_a_r_t_debug_8h_ae9dc3b6e28948a9d8788412ce6a603cb}
+
+
+Definition at line 19 of file U\-S\-A\-R\-T\-Debug.\-h.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_u_s_a_r_t_debug_8h_a9a96eb5e6b5a13fff8ed69716e76a314}{\index{U\-S\-A\-R\-T\-Debug.\-h@{U\-S\-A\-R\-T\-Debug.\-h}!debug\-U\-S\-A\-R\-T\-Init@{debug\-U\-S\-A\-R\-T\-Init}}
+\index{debug\-U\-S\-A\-R\-T\-Init@{debug\-U\-S\-A\-R\-T\-Init}!USARTDebug.h@{U\-S\-A\-R\-T\-Debug.\-h}}
+\subsubsection[{debug\-U\-S\-A\-R\-T\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void debug\-U\-S\-A\-R\-T\-Init (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{baudrate}
+\end{DoxyParamCaption}
+)}}\label{_u_s_a_r_t_debug_8h_a9a96eb5e6b5a13fff8ed69716e76a314}
+
+
+Initializes U\-S\-A\-R\-T1 as a print terminal to the P\-C. This function must check the incoming baudrate against the valid baudrates from the data-\/sheet. If the baudrate is invalid, then the D\-E\-F\-A\-U\-L\-T\-\_\-\-B\-A\-U\-D constant must be used instead. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em baudrate} & The desired baudrate to set for U\-S\-A\-R\-T1.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000028}{Todo}]Create the function that will initialize U\-S\-A\-R\-T1 for debugging use. \end{DoxyRefDesc}
+\hypertarget{_u_s_a_r_t_debug_8h_aeaa27830bd87dcec2dd03213b02f22aa}{\index{U\-S\-A\-R\-T\-Debug.\-h@{U\-S\-A\-R\-T\-Debug.\-h}!get\-Char\-Debug@{get\-Char\-Debug}}
+\index{get\-Char\-Debug@{get\-Char\-Debug}!USARTDebug.h@{U\-S\-A\-R\-T\-Debug.\-h}}
+\subsubsection[{get\-Char\-Debug}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char get\-Char\-Debug (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{_u_s_a_r_t_debug_8h_aeaa27830bd87dcec2dd03213b02f22aa}
+
+
+Recieves one byte of data from the serial port (i.\-e. from the P\-C). 
+
+\begin{DoxyReturn}{Returns}
+byte\-Received Character that was received on the U\-S\-A\-R\-T.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000030}{Todo}]Make the function that will listen for input on the U\-S\-A\-R\-T1 R\-X line. \end{DoxyRefDesc}
+\hypertarget{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{\index{U\-S\-A\-R\-T\-Debug.\-h@{U\-S\-A\-R\-T\-Debug.\-h}!put\-Char\-Debug@{put\-Char\-Debug}}
+\index{put\-Char\-Debug@{put\-Char\-Debug}!USARTDebug.h@{U\-S\-A\-R\-T\-Debug.\-h}}
+\subsubsection[{put\-Char\-Debug}]{\setlength{\rightskip}{0pt plus 5cm}void put\-Char\-Debug (
+\begin{DoxyParamCaption}
+\item[{char}]{byte\-To\-Send}
+\end{DoxyParamCaption}
+)}}\label{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}
+
+
+Sends one byte to the U\-S\-A\-R\-T1 Tx pin (Transmits one byte). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em byte\-To\-Send} & The byte that is to be transmitted through U\-S\-A\-R\-T1.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000029}{Todo}]Make the function that will put a character on the U\-S\-A\-R\-T1 T\-X line. \end{DoxyRefDesc}
+
+
+Referenced by printf\-R\-B\-E().
+

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+firstStartup=false
+history.comment=SW5pdGlhbCBjb21taXQgQzE2;U2hhcmUgcHJvamVjdCAiUkJFTGliIiBpbnRvICJodHRwczovL2Z1c2lvbi53cGkuZWR1L3N2bi9yYmUzMDAxYzE2L3RydW5rIg\=\=
+history.repositoryURL=aHR0cHM6Ly9mdXNpb24ud3BpLmVkdS9zdm4vcmJlMzAwMWMxNi90cnVuaw\=\=;aHR0cHM6Ly9mdXNpb24ud3BpLmVkdS9zdm4vcmJlbGliYzIwMTQvdHJ1bms\=
+history.repositoryUser=am9lc3Q\=
+history.selectProjectNamePage=aHR0cHM6Ly9mdXNpb24ud3BpLmVkdS9zdm4vcmJlMzAwMWMxNi90cnVuay9SQkVMaWI\=
+org.eclipse.team.svn.ui.crashrecovery.invalidmeta.ValidConnectorsSelectionPanel.height=60
+org.eclipse.team.svn.ui.crashrecovery.invalidmeta.ValidConnectorsSelectionPanel.width=500
+org.eclipse.team.svn.ui.panel.callback.AskTrustSSLServerPanel.height=371
+org.eclipse.team.svn.ui.panel.callback.AskTrustSSLServerPanel.width=530
+org.eclipse.team.svn.ui.panel.callback.PromptCredentialsPanel.height=217
+org.eclipse.team.svn.ui.panel.callback.PromptCredentialsPanel.width=470
+org.eclipse.team.svn.ui.panel.local.CommitPanel.height=406
+org.eclipse.team.svn.ui.panel.local.CommitPanel.width=600
+preference.core.svnconnector=org.eclipse.team.svn.connector.svnkit18

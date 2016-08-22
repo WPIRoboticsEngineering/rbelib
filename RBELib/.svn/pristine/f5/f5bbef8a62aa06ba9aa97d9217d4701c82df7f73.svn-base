@@ -1,0 +1,115 @@
+\hypertarget{_p_o_r_t_ddriver_8h}{\section{include/\-R\-B\-E\-Lib/\-P\-O\-R\-T\-Ddriver.h File Reference}
+\label{_p_o_r_t_ddriver_8h}\index{include/\-R\-B\-E\-Lib/\-P\-O\-R\-T\-Ddriver.\-h@{include/\-R\-B\-E\-Lib/\-P\-O\-R\-T\-Ddriver.\-h}}
+}
+
+
+The header file and function prototypes for P\-O\-R\-T\-D.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{_p_o_r_t_ddriver_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_p_o_r_t_ddriver_8h_a829f6c1b9021e983268293d2b2096a9b}{Set\-P\-O\-R\-T\-D\-D\-D\-R} (unsigned char direction, unsigned char pin)
+\begin{DoxyCompactList}\small\item\em Sets the direction (Input/\-Output) of the specified pin on P\-O\-R\-T\-D. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{_p_o_r_t_ddriver_8h_a052c3f3065d4d6c8aed5f424a2fce1d7}{Get\-P\-O\-R\-T\-D\-Pin\-Value} (unsigned char pin)
+\begin{DoxyCompactList}\small\item\em Returns the value on the specified pin of P\-O\-R\-T\-D. \end{DoxyCompactList}\item 
+void \hyperlink{_p_o_r_t_ddriver_8h_a84dcf9685a087bfb2ea2451b4f3837ba}{Set\-P\-O\-R\-T\-D\-Pin\-Value} (unsigned char pin, unsigned char value)
+\begin{DoxyCompactList}\small\item\em Sets the value on the specified pin of P\-O\-R\-T\-D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The header file and function prototypes for P\-O\-R\-T\-D. \begin{DoxyAuthor}{Author}
+Kevin Harrington 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 30, 2010
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Justin Barrett 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 23, 2011
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 19, 2013 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{_p_o_r_t_ddriver_8h_source}{P\-O\-R\-T\-Ddriver.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_p_o_r_t_ddriver_8h_a052c3f3065d4d6c8aed5f424a2fce1d7}{\index{P\-O\-R\-T\-Ddriver.\-h@{P\-O\-R\-T\-Ddriver.\-h}!Get\-P\-O\-R\-T\-D\-Pin\-Value@{Get\-P\-O\-R\-T\-D\-Pin\-Value}}
+\index{Get\-P\-O\-R\-T\-D\-Pin\-Value@{Get\-P\-O\-R\-T\-D\-Pin\-Value}!PORTDdriver.h@{P\-O\-R\-T\-Ddriver.\-h}}
+\subsubsection[{Get\-P\-O\-R\-T\-D\-Pin\-Value}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char Get\-P\-O\-R\-T\-D\-Pin\-Value (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{pin}
+\end{DoxyParamCaption}
+)}}\label{_p_o_r_t_ddriver_8h_a052c3f3065d4d6c8aed5f424a2fce1d7}
+
+
+Returns the value on the specified pin of P\-O\-R\-T\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & The pin on P\-O\-R\-T\-D to retrieve the value of. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value The value of the specified pin on P\-O\-R\-T\-D. 
+\end{DoxyReturn}
+\hypertarget{_p_o_r_t_ddriver_8h_a829f6c1b9021e983268293d2b2096a9b}{\index{P\-O\-R\-T\-Ddriver.\-h@{P\-O\-R\-T\-Ddriver.\-h}!Set\-P\-O\-R\-T\-D\-D\-D\-R@{Set\-P\-O\-R\-T\-D\-D\-D\-R}}
+\index{Set\-P\-O\-R\-T\-D\-D\-D\-R@{Set\-P\-O\-R\-T\-D\-D\-D\-R}!PORTDdriver.h@{P\-O\-R\-T\-Ddriver.\-h}}
+\subsubsection[{Set\-P\-O\-R\-T\-D\-D\-D\-R}]{\setlength{\rightskip}{0pt plus 5cm}void Set\-P\-O\-R\-T\-D\-D\-D\-R (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{direction, }
+\item[{unsigned char}]{pin}
+\end{DoxyParamCaption}
+)}}\label{_p_o_r_t_ddriver_8h_a829f6c1b9021e983268293d2b2096a9b}
+
+
+Sets the direction (Input/\-Output) of the specified pin on P\-O\-R\-T\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & The desired direction for the pin (Input or Output). \\
+\hline
+{\em pin} & The pin on P\-O\-R\-T\-D to set the direction of. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_p_o_r_t_ddriver_8h_a84dcf9685a087bfb2ea2451b4f3837ba}{\index{P\-O\-R\-T\-Ddriver.\-h@{P\-O\-R\-T\-Ddriver.\-h}!Set\-P\-O\-R\-T\-D\-Pin\-Value@{Set\-P\-O\-R\-T\-D\-Pin\-Value}}
+\index{Set\-P\-O\-R\-T\-D\-Pin\-Value@{Set\-P\-O\-R\-T\-D\-Pin\-Value}!PORTDdriver.h@{P\-O\-R\-T\-Ddriver.\-h}}
+\subsubsection[{Set\-P\-O\-R\-T\-D\-Pin\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void Set\-P\-O\-R\-T\-D\-Pin\-Value (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{pin, }
+\item[{unsigned char}]{value}
+\end{DoxyParamCaption}
+)}}\label{_p_o_r_t_ddriver_8h_a84dcf9685a087bfb2ea2451b4f3837ba}
+
+
+Sets the value on the specified pin of P\-O\-R\-T\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & The pin on P\-O\-R\-T\-D to set the value of. \\
+\hline
+{\em value} & The value to set the specified pin on P\-O\-R\-T\-D to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

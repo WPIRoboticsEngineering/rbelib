@@ -1,0 +1,209 @@
+/*
+ * main.c
+ *
+ *  Created on: July 21, 2014
+ *      Author: ewillcox
+ */
+
+//Lower link: DSUB0
+//Upper link: DSUB1
+
+#include "RBELib/RBELib.h"
+//For use of abs()
+#include <stdlib.h>
+#include<math.h>
+
+
+//Globals
+//Timer0
+volatile unsigned long counter = 0;
+volatile unsigned long millisecond = 0;
+//ADC
+volatile int ADCval = 0;
+float joef=10000.023;
+
+//Timer ISR
+ISR(TIMER0_OVF_vect){
+  //Using a prescaler of 8
+  // ((18432000 / 8) / 256) / 1000 = 9 interrupts in a ms
+  counter++;
+  if(counter >= 9){
+    millisecond++;
+    counter = 0;
+  }
+}
+
+//ADC ISR
+ISR(ADC_vect){
+  //Get low byte first
+  int lower = ADCL;
+  //Get high byte and free the ADC mem
+  int upper = ADCH;
+
+  //Combine the two values into a 10-bit result
+  ADCval = ((upper & 0x03) << 8) | lower;
+}
+
+//Makes the arm drive to a relatively straight up position
+void centerArm(int lowADC, int highADC){
+  //Do a P(ID) calc and find the error
+  volatile signed int lowPID = 20 * (550 - lowADC);
+  volatile signed int highPID = 10 * (550 - highADC);
+
+  //Check if the lower link ADC value is between 500 - 700
+  //and drive the appropriate direction to make it
+  if(lowADC < 400){
+    setDAC(0, abs(lowPID));
+    setDAC(1, 0);
+  }
+  else if (lowADC > 450){
+    setDAC(0, 0);
+    setDAC(1, abs(lowPID));
+  }
+  //If we're in the O.K. zone, stop the motors
+  else{
+    setDAC(0, 0);
+    setDAC(1, 0);
+  }
+
+  //Check if the upper link ADC value is between 500 - 700
+  if(highADC < 400){
+    setDAC(2, 0);
+    setDAC(3, abs(highPID));
+  }
+  else if(highADC > 450){
+    setDAC(2, abs(highPID));
+    setDAC(3, 0);
+  }
+  //If we're in the O.K. zone, stop the motors
+  else{
+    setDAC(2, 0);
+    setDAC(3, 0);
+  }
+
+}
+
+int main(void){
+	//	PORTDbits._P7 = OFF;
+
+  //Enable printf() and setServo()
+  initRBELib();
+  //Set the baud rate of the UART
+  debugUSARTInit(115200);
+  //Init timer 0
+  initTimer(0,0,0);
+  //Init the ADC to read channel 4
+  initADC(4);
+  //Init the SPI
+  initSPI();
+  //Init encoders
+ // encInit(0);
+//  encInit(1);
+  //Enable interrupts
+
+
+  if(PINCbits._P1==0)
+  {
+	  printf("\n\rShit:");
+  }
+  // accel
+  /*
+   	while(1){
+	x = GetAccelerationH48C(0);
+	y = GetAccelerationH48C(1);
+	z = GetAccelerationH48C(2);
+	//printfDEBUG_NNL(", ");
+				printfDEBUG_UL(x);
+				printfDEBUG_NNL(", ");
+				printfDEBUG_UL(y);
+				printfDEBUG_NNL(", ");
+				printfDEBUG_UL(z);
+				printfDEBUG_NNL("\r\n");
+				_delay_ms(40);
+	}
+}
+
+   */
+  /*
+  DDRBbits._P4 = OUTPUT;
+ // PORTB = 0b00000000;
+while(1){
+
+PORTBbits._P4 = 0;
+_delay_ms(1000);
+PORTBbits._P4 = 1;
+_delay_ms(1000);
+}
+*/
+  sei();
+setServo(0,180);
+_delay_ms(1);
+setServo(1,180);
+_delay_ms(1);
+setServo(2,180);
+_delay_ms(1);
+setServo(3,180);
+_delay_ms(1);
+setServo(4,180);
+_delay_ms(2000);
+  //Var for running at a set freq (ideally)
+  unsigned long start = 0;
+  while(1){
+	  setServo(0,0);
+	  _delay_ms(1);
+	// int x = GetAccelerationH48C(0);
+//	 int y = GetAccelerationH48C(1);
+//	 int z = GetAccelerationH48C(2);
+//     printf("\n\rX: %4d\Y: %4d\tZ: %4d\n\r",
+//         x, y, z);
+
+    //If 1 sec has passed since time we went into the if()...
+    if(millisecond - start >= 50){
+      //Sample the lower link
+      changeADC(2);
+     // int xy=1;
+    //  cos(xy);
+      //Wait a little bit before sampling
+      //Need to wait 25 cycles, just used some
+      //random delay instead of doing the math...
+      _delay_ms(25);
+      //Grab the encoder count for the lower link
+      signed int lowENC = encCount(0);
+      //Grab the ADC value for the lower link
+      volatile int lowADC = ADCval;
+
+      //Switch to the ADC for the upper link
+      ADMUX = (0x40) | 3;
+
+
+
+      //Delay before sampling
+      _delay_ms(25);
+      //Grab the upper encoder count
+      signed int highENC = encCount(1);
+      //Grab the upper ADC count
+      volatile int highADC = ADCval;
+
+
+
+      changeADC(0);
+      _delay_ms(25);
+      volatile int cur0 =ADCval;
+      changeADC(1);
+      _delay_ms(25);
+      volatile int cur1 =ADCval;
+
+
+      //Print out all of the values we just sampled
+      printf("\n\rTime: %9lu\tE0: %4d\tE1: %4d\n\r",
+          millisecond, lowENC, highENC);
+      printf("\t\tA0: %4d\tA1: %4d\n\r", cur0, cur1);
+  //    printf("\n\r JOE: %f", joef);
+      //Make the arm go relatively straight up
+      centerArm(lowADC, highADC);
+
+      start = millisecond;
+    }
+  }
+  return 0;
+}

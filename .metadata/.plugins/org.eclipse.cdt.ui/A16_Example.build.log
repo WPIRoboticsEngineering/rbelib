@@ -1,0 +1,42 @@
+09:54:40 **** Incremental Build of configuration Release for project A16_Example ****
+make all 
+Building file: ../SRC/main.c
+Invoking: AVR Compiler
+avr-gcc -I"R:\ece_mdrive\working code\RBELib\include" -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=18432000UL -MMD -MP -MF"SRC/main.d" -MT"SRC/main.d" -c -o "SRC/main.o" "../SRC/main.c"
+Finished building: ../SRC/main.c
+ 
+Building target: A16_Example.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,A16_Example.map -Wl,-u,vfprintf -lprintf_flt -lm -L"R:\ece_mdrive\working code\RBELib\Release" -mmcu=atmega644p -o "A16_Example.elf"  ./SRC/USART.o ./SRC/main.o   -lRBELib -lm
+Finished building target: A16_Example.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S A16_Example.elf  >"A16_Example.lss"
+Finished building: A16_Example.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex A16_Example.elf  "A16_Example.hex"
+Finished building: A16_Example.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex A16_Example.elf  "A16_Example.eep"
+Finished building: A16_Example.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p A16_Example.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:    3860 bytes (5.9% Full)
+(.text + .data + .bootloader)
+
+Data:         87 bytes (2.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+09:54:41 Build Finished (took 1s.284ms)
+

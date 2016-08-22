@@ -1,0 +1,137 @@
+\hypertarget{ports_8h}{\section{include/\-R\-B\-E\-Lib/ports.h File Reference}
+\label{ports_8h}\index{include/\-R\-B\-E\-Lib/ports.\-h@{include/\-R\-B\-E\-Lib/ports.\-h}}
+}
+
+
+Controls ports A -\/ D to be able to set direction, read a value and set a value for any pins desired.  
+
+
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{ports_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{ports_8h_a1b62a36451c75cf20221c12f039ad6f4}{set\-Pins\-Dir} (char port, int dir, char num\-Pins,...)
+\begin{DoxyCompactList}\small\item\em Sets the direction (Input/\-Output) of the specified pins. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{ports_8h_a85e9d6d0f75513f3f961c41861299430}{get\-Pins\-Val} (char port, int num\-Pins,...)
+\begin{DoxyCompactList}\small\item\em Gets the value on the specified pins of a port. \end{DoxyCompactList}\item 
+void \hyperlink{ports_8h_afd809b04181b31d8567d95f070bb9034}{set\-Pins\-Val} (char port, int val, int num\-Pins,...)
+\begin{DoxyCompactList}\small\item\em Sets the value on the specified pins of a port. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Controls ports A -\/ D to be able to set direction, read a value and set a value for any pins desired. All functions here can take in a variable number of pins to set/read from. The way this is accomplished in C is by using the functions provided by stdarg.\-h and is the way that printf() works in the standard library.
+
+While an array could be used just as well, a variable number of arguments is used to give exposure to variable arguments.
+
+An example of how to call a function with variable arguments can look like this for calling \hyperlink{ports_8h_a1b62a36451c75cf20221c12f039ad6f4}{set\-Pins\-Dir()}.
+
+
+\begin{DoxyCode}
+\hyperlink{ports_8h_a1b62a36451c75cf20221c12f039ad6f4}{setPinsDir}(\textcolor{charliteral}{'A'}, \hyperlink{_r_b_e_lib_8h_a1bb283bd7893b9855e2f23013891fc82}{INPUT}, 2, 0, 5) 
+\end{DoxyCode}
+
+
+which sets 2 pins on Port A as inputs\-: 0 and 5.
+
+An example has been created on the R\-B\-E wiki and can be found \href{http://wiki.wpi.edu/robotics/Programming_Background#Taking_in_a_Variable_Number_of_Arguments}{\tt here.}
+
+\begin{DoxyAuthor}{Author}
+Eric Willcox 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 18, 2014 
+\end{DoxyDate}
+
+
+Definition in file \hyperlink{ports_8h_source}{ports.\-h}.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{ports_8h_a85e9d6d0f75513f3f961c41861299430}{\index{ports.\-h@{ports.\-h}!get\-Pins\-Val@{get\-Pins\-Val}}
+\index{get\-Pins\-Val@{get\-Pins\-Val}!ports.h@{ports.\-h}}
+\subsubsection[{get\-Pins\-Val}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char get\-Pins\-Val (
+\begin{DoxyParamCaption}
+\item[{char}]{port, }
+\item[{int}]{num\-Pins, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{ports_8h_a85e9d6d0f75513f3f961c41861299430}
+
+
+Gets the value on the specified pins of a port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & Port to read (A/\-B/\-C/\-D). \\
+\hline
+{\em num\-Pins} & The number of pins that you are reading. \\
+\hline
+{\em ...} & The pins one after another.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value The value of the specified pins on the port.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000020}{Todo}]Create a way to read all given pins on a port. \end{DoxyRefDesc}
+\hypertarget{ports_8h_a1b62a36451c75cf20221c12f039ad6f4}{\index{ports.\-h@{ports.\-h}!set\-Pins\-Dir@{set\-Pins\-Dir}}
+\index{set\-Pins\-Dir@{set\-Pins\-Dir}!ports.h@{ports.\-h}}
+\subsubsection[{set\-Pins\-Dir}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Pins\-Dir (
+\begin{DoxyParamCaption}
+\item[{char}]{port, }
+\item[{int}]{dir, }
+\item[{char}]{num\-Pins, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{ports_8h_a1b62a36451c75cf20221c12f039ad6f4}
+
+
+Sets the direction (Input/\-Output) of the specified pins. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & Port to set (A/\-B/\-C/\-D). \\
+\hline
+{\em dir} & The pin on P\-O\-R\-T\-A to set the direction of. \\
+\hline
+{\em num\-Pins} & The number of pins that you are setting the direction of. \\
+\hline
+{\em ...} & Pins one after another\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000019}{Todo}]Create a way to set a port's pins to inputs or outputs. \end{DoxyRefDesc}
+\hypertarget{ports_8h_afd809b04181b31d8567d95f070bb9034}{\index{ports.\-h@{ports.\-h}!set\-Pins\-Val@{set\-Pins\-Val}}
+\index{set\-Pins\-Val@{set\-Pins\-Val}!ports.h@{ports.\-h}}
+\subsubsection[{set\-Pins\-Val}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Pins\-Val (
+\begin{DoxyParamCaption}
+\item[{char}]{port, }
+\item[{int}]{val, }
+\item[{int}]{num\-Pins, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{ports_8h_afd809b04181b31d8567d95f070bb9034}
+
+
+Sets the value on the specified pins of a port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & Port to set (A/\-B/\-C/\-D). \\
+\hline
+{\em num\-Pins} & The number of pins that you are setting. \\
+\hline
+{\em val} & The value (high/low) to set the pin to. \\
+\hline
+{\em ...} & The pins one after another.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000021}{Todo}]Create a way to set all given pins on a port. \end{DoxyRefDesc}

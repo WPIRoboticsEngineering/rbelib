@@ -1,0 +1,93 @@
+\hypertarget{index_welcome}{}\section{Welcome to R\-B\-E 3001}\label{index_welcome}
+\par
+ Here you will find all the documentation that you need for working with R\-B\-E\-Lib which will contain function prototypes for everything that you will need throughout the course. While it is possible to complete the course without using R\-B\-E\-Lib, using it will make your code easier to maintain as you get closer to the final project as well as follow proper coding practice as outlined in the syllabus.
+
+As you progress through the course, it is encouraged that you keep your own version of R\-B\-E\-Lib with your S\-V\-N repository so that you can add to things such as the To Do list and function descriptions as you go.
+
+Please note that all page numbers are for the
+
+A\-Tmega164\-P/\-V \par
+ A\-Tmega324\-P/\-V \par
+ A\-Tmega644\-P/\-V \par
+
+
+datasheet. \par
+\par
+ \par
+ \hypertarget{index_rbelib}{}\section{R\-B\-E\-Lib Files}\label{index_rbelib}
+\par
+ \hyperlink{_a_d_c_8h}{A\-D\-C } {\bfseries  Page 240 }
+
+Here you will find everything relating to the Analog to Digital Converter (A\-D\-C) that you should need. You will have to make your own corresponding functions for these prototypes. 
+
+ \hyperlink{ports_8h}{Ports } {\bfseries  Page 72 }
+
+Ports contains the code for manipulating the ports on the chip that you can access via the breakouts. Keep in mind that some of these are also connected to components on the board such as the S\-P\-I line, if you have a problem using a pin and on-\/board components, {\bfseries  C\-H\-E\-C\-K T\-H\-E D\-A\-T\-A\-S\-H\-E\-E\-T A\-N\-D B\-O\-A\-R\-D L\-A\-Y\-O\-U\-T } to make sure that you are not using the same pin for your buttons that you are for the M\-O\-S\-I while using S\-P\-I or etc.
+
+If you are not using a port, do not leave wires connected. After lab 1, instead of running code off buttons (if you decide to do that) instead use the U\-A\-R\-T to receive data and make a menu. 
+
+ \hyperlink{_debug_8h}{Printing }
+
+This contains \hyperlink{_debug_8h_af447ccfe0edd5c2eee6ff9aba36bd6f9}{init\-R\-B\-E\-Lib()} which must be called if you want to use print statements with printf(). Whenever you have a problem and can't find out what it is, first try to print out all of your variables / registers and add delays so that you can see what is happening.
+
+You need to have \hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug()} written before you can use printf(). 
+
+ \hyperlink{_periph_8h}{Peripherals } {\bfseries  See respective datasheets for each peripheral.}
+
+Here is where all code for peripheral devices such as the I\-R sensor and accelerometer go. 
+
+ \hyperlink{_p_i_d_8h}{P\-I\-D }
+
+This is where all P\-I\-D code goes for the calculation. You will need to create your own calculation using the formulas that you used in class and optimize them for running on an embedded system.
+
+This also contains a struct you can use for defining your constants. 
+
+ \hyperlink{_r_b_e_lib_8h}{R\-B\-E\-Lib Macros }
+
+Here are all of the includes for R\-B\-E\-Lib as well as some of the macros that you may find useful to use (such as I\-N\-P\-U\-T/\-O\-U\-T\-P\-U\-T instead of 0/1). 
+
+ \hyperlink{reg__structs_8h}{Reg\-\_\-\-Structs } \hyperlink{_slave_selects_8h}{Slave Selects }
+
+Reg\-\_\-structs are a few useful shorthand notations that you can use in your coding for accessing the pins on ports. To go with this, Slave\-Selects defines some of the S\-S lines for when using S\-P\-I. 
+
+ \hyperlink{_set_servo_8h}{Servo (Conveyer/\-Gripper) }
+
+This is used for moving the conveyer belt and opening/closing the gripper. You do not need to create anything additional. 
+
+ \hyperlink{_s_p_i_8h}{S\-P\-I } {\bfseries  Page 161 }
+
+For initializing the S\-P\-I and and sending/receiving data through it. 
+
+ \hyperlink{timer_8h}{Timers } {\bfseries  Pages 93, 111, 139 }
+
+Allows you to initialize any one of the timers and set their comparative values for when they reset if using C\-T\-C mode. 
+
+ \hyperlink{_u_s_a_r_t_debug_8h}{U\-S\-A\-R\-T } {\bfseries  Page 171 }
+
+This should be the very first thing that you work on and is the prelab assignement. This allows you to use serial printing within your code through the use of the U\-S\-A\-R\-T.
+
+Again, if you don't do \hyperlink{_u_s_a_r_t_debug_8h_ab52220b9802762326175f5a6d09c50a1}{put\-Char\-Debug()} first, you can't use print statements and {\bfseries R\-B\-E\-Lib may not compile unless you at least create a blank function.} 
+
+ \hyperlink{pot_8h}{Potentiometers }
+
+These functions can be used to get the potentiometer values in degrees, voltage, or A\-D\-C counts. You need to make your own functions for the prototypes. 
+
+ \hyperlink{motors_8h}{Motors }
+
+This contains declarations for controlling the motors on the arm. You need to create a way to drive to an (X,Y) coordinate as well as a way to drive to a desired angle for the links. 
+
+ \hyperlink{pot_8h}{Potentiometers }
+
+These functions can be used to get the potentiometer values in degrees, voltage, or A\-D\-C counts. You need to make your own functions for the prototypes. \hypertarget{index_helpful}{}\section{Other Helpful Links}\label{index_helpful}
+\par
+ \hyperlink{bug}{Bug List }
+
+This is a place where any bugs in R\-B\-E\-Lib and your code should be documented. 
+
+ \hyperlink{todo}{To Do }
+
+Things that still need to be done in the R\-B\-E\-Lib and or your code. 
+
+ \hyperlink{datatypes}{Data Types }
+
+This lets you know the number of bytes in any given data type. 

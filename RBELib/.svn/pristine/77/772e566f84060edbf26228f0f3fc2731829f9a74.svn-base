@@ -1,0 +1,132 @@
+\hypertarget{union_____e_e_c_rbits__t}{\section{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t Union Reference}
+\label{union_____e_e_c_rbits__t}\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+}
+
+
+Register\+: E\+E\+C\+R -\/ The E\+E\+P\+R\+O\+M Control Register. Page\+: 21.  
+
+
+
+
+{\ttfamily \#include $<$reg\+\_\+structs.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a359666ae317fb19e22532ca95c9ceb00}{\_EERE}:1\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a3e9439f92f80a14f82bf3bef53f4526d}{\_EEPE}:1\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a01f4d1528e11166bf0f4f603211e69ae}{\_EEMPE}:1\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_aa1f71b84eb4aacca790b6da1121e7a35}{\_EERIE}:1\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_ae4ad8b10d6620dd0f333a69a6f60a17f}{\_EEPM0}:1\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a04908b3a010bb473339a282f641c2bf0}{\_EEPM1}:1\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a93f9aefb9c2f57aee765328c81531b76}{\_\_pad0\_\_}:2\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a93f9aefb9c2f57aee765328c81531b76}{\_\_pad0\_\_}:4\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a5a6b797df7d4a90e560597d16e7fe1fb}{\_EEPM}:2\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_ae3e3c7136f72334202a33a7d1fcfd109}{\_\_pad1\_\_}:2\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____e_e_c_rbits__t_a8384ea2b9a07f8501c0d4a00a282a1d4}{\_w}:8\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Register\+: E\+E\+C\+R -\/ The E\+E\+P\+R\+O\+M Control Register. Page\+: 21. 
+
+Definition at line 170 of file reg\+\_\+structs.\+h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union_____e_e_c_rbits__t_a8c3b00531e6990edd031c6b673426728}{\subsubsection[{"@37}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____e_e_c_rbits__t_a8c3b00531e6990edd031c6b673426728}
+\hypertarget{union_____e_e_c_rbits__t_ac1f3213ba1e2edcf1fafc373abd34a1e}{\subsubsection[{"@39}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____e_e_c_rbits__t_ac1f3213ba1e2edcf1fafc373abd34a1e}
+\hypertarget{union_____e_e_c_rbits__t_af23c40121db7567e06824152574c55a9}{\subsubsection[{"@41}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____e_e_c_rbits__t_af23c40121db7567e06824152574c55a9}
+\hypertarget{union_____e_e_c_rbits__t_a93f9aefb9c2f57aee765328c81531b76}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+\_\+pad0\+\_\+\+\_\+@{\+\_\+\+\_\+pad0\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+pad0\+\_\+\+\_\+@{\+\_\+\+\_\+pad0\+\_\+\+\_\+}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+\_\+pad0\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+\_\+pad0\+\_\+\+\_\+}}\label{union_____e_e_c_rbits__t_a93f9aefb9c2f57aee765328c81531b76}
+
+
+Definition at line 178 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_ae3e3c7136f72334202a33a7d1fcfd109}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+\_\+pad1\+\_\+\+\_\+@{\+\_\+\+\_\+pad1\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+pad1\+\_\+\+\_\+@{\+\_\+\+\_\+pad1\+\_\+\+\_\+}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+\_\+pad1\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+\_\+pad1\+\_\+\+\_\+}}\label{union_____e_e_c_rbits__t_ae3e3c7136f72334202a33a7d1fcfd109}
+
+
+Definition at line 183 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_a01f4d1528e11166bf0f4f603211e69ae}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+M\+P\+E@{\+\_\+\+E\+E\+M\+P\+E}}
+\index{\+\_\+\+E\+E\+M\+P\+E@{\+\_\+\+E\+E\+M\+P\+E}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+M\+P\+E}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+M\+P\+E}}\label{union_____e_e_c_rbits__t_a01f4d1528e11166bf0f4f603211e69ae}
+
+
+Definition at line 174 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_a3e9439f92f80a14f82bf3bef53f4526d}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+P\+E@{\+\_\+\+E\+E\+P\+E}}
+\index{\+\_\+\+E\+E\+P\+E@{\+\_\+\+E\+E\+P\+E}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+P\+E}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+P\+E}}\label{union_____e_e_c_rbits__t_a3e9439f92f80a14f82bf3bef53f4526d}
+
+
+Definition at line 173 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_a5a6b797df7d4a90e560597d16e7fe1fb}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+P\+M@{\+\_\+\+E\+E\+P\+M}}
+\index{\+\_\+\+E\+E\+P\+M@{\+\_\+\+E\+E\+P\+M}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+P\+M}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+P\+M}}\label{union_____e_e_c_rbits__t_a5a6b797df7d4a90e560597d16e7fe1fb}
+
+
+Definition at line 182 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_ae4ad8b10d6620dd0f333a69a6f60a17f}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+P\+M0@{\+\_\+\+E\+E\+P\+M0}}
+\index{\+\_\+\+E\+E\+P\+M0@{\+\_\+\+E\+E\+P\+M0}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+P\+M0}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+P\+M0}}\label{union_____e_e_c_rbits__t_ae4ad8b10d6620dd0f333a69a6f60a17f}
+
+
+Definition at line 176 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_a04908b3a010bb473339a282f641c2bf0}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+P\+M1@{\+\_\+\+E\+E\+P\+M1}}
+\index{\+\_\+\+E\+E\+P\+M1@{\+\_\+\+E\+E\+P\+M1}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+P\+M1}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+P\+M1}}\label{union_____e_e_c_rbits__t_a04908b3a010bb473339a282f641c2bf0}
+
+
+Definition at line 177 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_a359666ae317fb19e22532ca95c9ceb00}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+R\+E@{\+\_\+\+E\+E\+R\+E}}
+\index{\+\_\+\+E\+E\+R\+E@{\+\_\+\+E\+E\+R\+E}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+R\+E}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+R\+E}}\label{union_____e_e_c_rbits__t_a359666ae317fb19e22532ca95c9ceb00}
+
+
+Definition at line 172 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_aa1f71b84eb4aacca790b6da1121e7a35}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+\+E\+E\+R\+I\+E@{\+\_\+\+E\+E\+R\+I\+E}}
+\index{\+\_\+\+E\+E\+R\+I\+E@{\+\_\+\+E\+E\+R\+I\+E}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+E\+E\+R\+I\+E}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+\+E\+E\+R\+I\+E}}\label{union_____e_e_c_rbits__t_aa1f71b84eb4aacca790b6da1121e7a35}
+
+
+Definition at line 175 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____e_e_c_rbits__t_a8384ea2b9a07f8501c0d4a00a282a1d4}{\index{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}!\+\_\+w@{\+\_\+w}}
+\index{\+\_\+w@{\+\_\+w}!\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t@{\+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+w}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+E\+E\+C\+Rbits\+\_\+t\+::\+\_\+w}}\label{union_____e_e_c_rbits__t_a8384ea2b9a07f8501c0d4a00a282a1d4}
+
+
+Definition at line 186 of file reg\+\_\+structs.\+h.
+
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\+R\+B\+E\+Lib/\hyperlink{reg__structs_8h}{reg\+\_\+structs.\+h}\end{DoxyCompactItemize}

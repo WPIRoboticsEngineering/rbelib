@@ -1,0 +1,16 @@
+<map id="include/RBELib/RBELib.h" name="include/RBELib/RBELib.h">
+<area shape="rect" id="node8" href="$_a_d_c_8h.html" title="The header file and function prototypes for the ADC. " alt="" coords="595,80,655,107"/>
+<area shape="rect" id="node9" href="$_d_a_c_8h.html" title="The header file and function prototypes for the DAC. " alt="" coords="679,80,739,107"/>
+<area shape="rect" id="node10" href="$_debug_8h.html" title="Allows for the use of printf() on the 3001 board. Simply rebinds stdout to the UART. " alt="" coords="763,80,834,107"/>
+<area shape="rect" id="node11" href="$motors_8h.html" title="Motor driving functions for the arm. " alt="" coords="858,80,931,107"/>
+<area shape="rect" id="node12" href="$_u_s_a_r_t_debug_8h.html" title="The header file and function prototypes for USART1. " alt="" coords="955,80,1069,107"/>
+<area shape="rect" id="node13" href="$timer_8h.html" title="The header file and function prototypes for Timers 0&#45;2. " alt="" coords="1093,80,1155,107"/>
+<area shape="rect" id="node14" href="$_periph_8h.html" title="The header file and function prototypes for the peripherals (IR, encoder and accelerometer). " alt="" coords="1179,80,1250,107"/>
+<area shape="rect" id="node15" href="$pot_8h.html" title="The header file and function prototypes for the potentiometers. " alt="" coords="1275,80,1325,107"/>
+<area shape="rect" id="node16" href="$_p_i_d_8h.html" title="The header file for PID constants and calculations. " alt="" coords="1350,80,1405,107"/>
+<area shape="rect" id="node17" href="$reg__structs_8h.html" title="This file redefines some of the registers of the ATmega644p as structs to allow for easy access to in..." alt="" coords="1429,80,1528,107"/>
+<area shape="rect" id="node18" href="$ports_8h.html" title="Controls ports A &#45; D to be able to set direction, read a value and set a value for any pins desired..." alt="" coords="1674,155,1737,181"/>
+<area shape="rect" id="node19" href="$_s_p_i_8h.html" title="The header file and function prototypes for the SPI. " alt="" coords="1603,80,1658,107"/>
+<area shape="rect" id="node20" href="$_set_servo_8h.html" title="This file allows for using the SerSevo function to move the conveyor and gripper. ..." alt="" coords="1683,80,1768,107"/>
+<area shape="rect" id="node21" href="$_slave_selects_8h.html" title="Here are all of the SPI line constants such as select lines and direction registers that can be calle..." alt="" coords="1793,80,1901,107"/>
+</map>

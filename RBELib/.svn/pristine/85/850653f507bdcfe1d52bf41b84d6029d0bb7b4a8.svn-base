@@ -1,0 +1,8 @@
+
+\begin{DoxyRefList}
+\item[\label{bug__bug000001}%
+\hypertarget{bug__bug000001}{}%
+File \hyperlink{_s_p_i_8h}{S\-P\-I.h} ]While not a bug, some students have problems with some of the S\-P\-I devices where their code will not work after they send a command. To fix this, you may have to toggle the S\-S line once after sending your command and then disable it once more. This is because some of the devices need the toggle to load the registers and then execute the command.
+
+While not a bug, the D\-A\-C S\-S may need to be toggled at startup. This is only something that matters during a soft reset but should be done anyway during your initialization for S\-P\-I.
+\end{DoxyRefList}

@@ -1,0 +1,76 @@
+\hypertarget{union_____d_i_d_r1bits__t}{\section{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t Union Reference}
+\label{union_____d_i_d_r1bits__t}\index{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}}
+}
+
+
+Register\+: D\+I\+D\+R1 -\/ Digital Input Disable Register 1. Page\+: 232.  
+
+
+
+
+{\ttfamily \#include $<$reg\+\_\+structs.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____d_i_d_r1bits__t_a3f4c3ce247e4f061fc8a77555d28323b}{\_AIN0D}:1\\
+\>unsigned \hyperlink{union_____d_i_d_r1bits__t_a8c694a878fbec691810ff0f3081cfbd0}{\_AIN1D}:1\\
+\>unsigned \hyperlink{union_____d_i_d_r1bits__t_a41f120ade4bbbf891be7c1254ff24ef0}{\_\_pad0\_\_}:6\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____d_i_d_r1bits__t_a4e7a332f9a400cffe49f593c4029b800}{\_w}:8\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Register\+: D\+I\+D\+R1 -\/ Digital Input Disable Register 1. Page\+: 232. 
+
+Definition at line 741 of file reg\+\_\+structs.\+h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union_____d_i_d_r1bits__t_a0c3187b54faa2ede6c0a3f4986c1e8f7}{\subsubsection[{"@179}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____d_i_d_r1bits__t_a0c3187b54faa2ede6c0a3f4986c1e8f7}
+\hypertarget{union_____d_i_d_r1bits__t_a0148cdcfb0e88cda4c7a4244852bfc48}{\subsubsection[{"@181}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____d_i_d_r1bits__t_a0148cdcfb0e88cda4c7a4244852bfc48}
+\hypertarget{union_____d_i_d_r1bits__t_a41f120ade4bbbf891be7c1254ff24ef0}{\index{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}!\+\_\+\+\_\+pad0\+\_\+\+\_\+@{\+\_\+\+\_\+pad0\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+pad0\+\_\+\+\_\+@{\+\_\+\+\_\+pad0\+\_\+\+\_\+}!\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}}
+\subsubsection[{\+\_\+\+\_\+pad0\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t\+::\+\_\+\+\_\+pad0\+\_\+\+\_\+}}\label{union_____d_i_d_r1bits__t_a41f120ade4bbbf891be7c1254ff24ef0}
+
+
+Definition at line 745 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____d_i_d_r1bits__t_a3f4c3ce247e4f061fc8a77555d28323b}{\index{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}!\+\_\+\+A\+I\+N0\+D@{\+\_\+\+A\+I\+N0\+D}}
+\index{\+\_\+\+A\+I\+N0\+D@{\+\_\+\+A\+I\+N0\+D}!\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}}
+\subsubsection[{\+\_\+\+A\+I\+N0\+D}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t\+::\+\_\+\+A\+I\+N0\+D}}\label{union_____d_i_d_r1bits__t_a3f4c3ce247e4f061fc8a77555d28323b}
+
+
+Definition at line 743 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____d_i_d_r1bits__t_a8c694a878fbec691810ff0f3081cfbd0}{\index{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}!\+\_\+\+A\+I\+N1\+D@{\+\_\+\+A\+I\+N1\+D}}
+\index{\+\_\+\+A\+I\+N1\+D@{\+\_\+\+A\+I\+N1\+D}!\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}}
+\subsubsection[{\+\_\+\+A\+I\+N1\+D}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t\+::\+\_\+\+A\+I\+N1\+D}}\label{union_____d_i_d_r1bits__t_a8c694a878fbec691810ff0f3081cfbd0}
+
+
+Definition at line 744 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____d_i_d_r1bits__t_a4e7a332f9a400cffe49f593c4029b800}{\index{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}!\+\_\+w@{\+\_\+w}}
+\index{\+\_\+w@{\+\_\+w}!\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t@{\+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t}}
+\subsubsection[{\+\_\+w}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+D\+I\+D\+R1bits\+\_\+t\+::\+\_\+w}}\label{union_____d_i_d_r1bits__t_a4e7a332f9a400cffe49f593c4029b800}
+
+
+Definition at line 748 of file reg\+\_\+structs.\+h.
+
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\+R\+B\+E\+Lib/\hyperlink{reg__structs_8h}{reg\+\_\+structs.\+h}\end{DoxyCompactItemize}

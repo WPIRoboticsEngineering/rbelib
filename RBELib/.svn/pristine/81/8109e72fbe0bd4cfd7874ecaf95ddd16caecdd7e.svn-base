@@ -1,0 +1,116 @@
+\hypertarget{union_____s_p_m_c_s_rbits__t}{\section{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t Union Reference}
+\label{union_____s_p_m_c_s_rbits__t}\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+}
+
+
+Register\+: S\+P\+M\+C\+S\+R -\/ Store Program Memory Control and Status Register. Page\+: 281.  
+
+
+
+
+{\ttfamily \#include $<$reg\+\_\+structs.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a7334ff7a44cea22a3ccb71c298e6b1d6}{\_SPMEN}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a92df82c891fcf457fb690845fb436312}{\_PGERS}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_ae78dee1df7d0afee1fb42984f0e99257}{\_PGWRT}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a2d508d88ac248656af65a48dc98dc84d}{\_BLBSET}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_ab4a9d602876db9be9e6e7dcaebc279a2}{\_RWWSRE}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a41af35ec5da945ebabd68a3b0433a2c1}{\_SIGRD}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a67babcbf3b8656edc7224f97183d5429}{\_RWWSB}:1\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a1a9a86babff2cf8c67f7b03a0fc62eba}{\_SPMIE}:1\\
+\}; \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>unsigned \hyperlink{union_____s_p_m_c_s_rbits__t_a07bf1fbc0f20f7171cb4b032563ae209}{\_w}:8\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Register\+: S\+P\+M\+C\+S\+R -\/ Store Program Memory Control and Status Register. Page\+: 281. 
+
+Definition at line 405 of file reg\+\_\+structs.\+h.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{union_____s_p_m_c_s_rbits__t_a18f111089254d6b7158caeadd23ce5de}{\subsubsection[{"@97}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____s_p_m_c_s_rbits__t_a18f111089254d6b7158caeadd23ce5de}
+\hypertarget{union_____s_p_m_c_s_rbits__t_a82299fd1b032fccc33b4b60c8a76289d}{\subsubsection[{"@99}]{\setlength{\rightskip}{0pt plus 5cm}struct \{ ... \} }}\label{union_____s_p_m_c_s_rbits__t_a82299fd1b032fccc33b4b60c8a76289d}
+\hypertarget{union_____s_p_m_c_s_rbits__t_a2d508d88ac248656af65a48dc98dc84d}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+B\+L\+B\+S\+E\+T@{\+\_\+\+B\+L\+B\+S\+E\+T}}
+\index{\+\_\+\+B\+L\+B\+S\+E\+T@{\+\_\+\+B\+L\+B\+S\+E\+T}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+B\+L\+B\+S\+E\+T}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+B\+L\+B\+S\+E\+T}}\label{union_____s_p_m_c_s_rbits__t_a2d508d88ac248656af65a48dc98dc84d}
+
+
+Definition at line 410 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_a92df82c891fcf457fb690845fb436312}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+P\+G\+E\+R\+S@{\+\_\+\+P\+G\+E\+R\+S}}
+\index{\+\_\+\+P\+G\+E\+R\+S@{\+\_\+\+P\+G\+E\+R\+S}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+G\+E\+R\+S}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+P\+G\+E\+R\+S}}\label{union_____s_p_m_c_s_rbits__t_a92df82c891fcf457fb690845fb436312}
+
+
+Definition at line 408 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_ae78dee1df7d0afee1fb42984f0e99257}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+P\+G\+W\+R\+T@{\+\_\+\+P\+G\+W\+R\+T}}
+\index{\+\_\+\+P\+G\+W\+R\+T@{\+\_\+\+P\+G\+W\+R\+T}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+P\+G\+W\+R\+T}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+P\+G\+W\+R\+T}}\label{union_____s_p_m_c_s_rbits__t_ae78dee1df7d0afee1fb42984f0e99257}
+
+
+Definition at line 409 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_a67babcbf3b8656edc7224f97183d5429}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+R\+W\+W\+S\+B@{\+\_\+\+R\+W\+W\+S\+B}}
+\index{\+\_\+\+R\+W\+W\+S\+B@{\+\_\+\+R\+W\+W\+S\+B}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+R\+W\+W\+S\+B}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+R\+W\+W\+S\+B}}\label{union_____s_p_m_c_s_rbits__t_a67babcbf3b8656edc7224f97183d5429}
+
+
+Definition at line 413 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_ab4a9d602876db9be9e6e7dcaebc279a2}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+R\+W\+W\+S\+R\+E@{\+\_\+\+R\+W\+W\+S\+R\+E}}
+\index{\+\_\+\+R\+W\+W\+S\+R\+E@{\+\_\+\+R\+W\+W\+S\+R\+E}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+R\+W\+W\+S\+R\+E}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+R\+W\+W\+S\+R\+E}}\label{union_____s_p_m_c_s_rbits__t_ab4a9d602876db9be9e6e7dcaebc279a2}
+
+
+Definition at line 411 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_a41af35ec5da945ebabd68a3b0433a2c1}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+S\+I\+G\+R\+D@{\+\_\+\+S\+I\+G\+R\+D}}
+\index{\+\_\+\+S\+I\+G\+R\+D@{\+\_\+\+S\+I\+G\+R\+D}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+S\+I\+G\+R\+D}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+S\+I\+G\+R\+D}}\label{union_____s_p_m_c_s_rbits__t_a41af35ec5da945ebabd68a3b0433a2c1}
+
+
+Definition at line 412 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_a7334ff7a44cea22a3ccb71c298e6b1d6}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+S\+P\+M\+E\+N@{\+\_\+\+S\+P\+M\+E\+N}}
+\index{\+\_\+\+S\+P\+M\+E\+N@{\+\_\+\+S\+P\+M\+E\+N}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+S\+P\+M\+E\+N}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+S\+P\+M\+E\+N}}\label{union_____s_p_m_c_s_rbits__t_a7334ff7a44cea22a3ccb71c298e6b1d6}
+
+
+Definition at line 407 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_a1a9a86babff2cf8c67f7b03a0fc62eba}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+\+S\+P\+M\+I\+E@{\+\_\+\+S\+P\+M\+I\+E}}
+\index{\+\_\+\+S\+P\+M\+I\+E@{\+\_\+\+S\+P\+M\+I\+E}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+\+S\+P\+M\+I\+E}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+\+S\+P\+M\+I\+E}}\label{union_____s_p_m_c_s_rbits__t_a1a9a86babff2cf8c67f7b03a0fc62eba}
+
+
+Definition at line 414 of file reg\+\_\+structs.\+h.
+
+\hypertarget{union_____s_p_m_c_s_rbits__t_a07bf1fbc0f20f7171cb4b032563ae209}{\index{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}!\+\_\+w@{\+\_\+w}}
+\index{\+\_\+w@{\+\_\+w}!\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t@{\+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t}}
+\subsubsection[{\+\_\+w}]{\setlength{\rightskip}{0pt plus 5cm}unsigned \+\_\+\+\_\+\+S\+P\+M\+C\+S\+Rbits\+\_\+t\+::\+\_\+w}}\label{union_____s_p_m_c_s_rbits__t_a07bf1fbc0f20f7171cb4b032563ae209}
+
+
+Definition at line 417 of file reg\+\_\+structs.\+h.
+
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\+R\+B\+E\+Lib/\hyperlink{reg__structs_8h}{reg\+\_\+structs.\+h}\end{DoxyCompactItemize}

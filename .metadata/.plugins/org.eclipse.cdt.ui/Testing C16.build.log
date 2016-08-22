@@ -1,0 +1,6 @@
+11:12:59 **** Auto Build of configuration Default for project Testing C16 ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+11:12:59 Build Finished (took 105ms)
+

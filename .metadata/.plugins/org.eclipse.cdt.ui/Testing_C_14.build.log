@@ -1,0 +1,20 @@
+08:51:17 **** Build of configuration Release for project Testing_C_14 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p Testing_C_14.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:     196 bytes (0.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+08:51:17 Build Finished (took 366ms)
+
