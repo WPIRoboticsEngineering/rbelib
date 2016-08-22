@@ -1,22 +1,5 @@
-13:25:53 **** Incremental Build of configuration Release for project A16_Example ****
+13:38:55 **** Incremental Build of configuration Release for project A16_Example ****
 make all 
-Building target: A16_Example.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,A16_Example.map -Wl,-u,vfprintf -lprintf_flt -lm -L"R:\RBE3001 example workspace\RBELib\Release" -mmcu=atmega644p -o "A16_Example.elf"  ./SRC/USART.o ./SRC/main.o   -lRBELib -lm
-Finished building target: A16_Example.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S A16_Example.elf  >"A16_Example.lss"
-Finished building: A16_Example.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex A16_Example.elf  "A16_Example.hex"
-Finished building: A16_Example.hex
- 
-Create eeprom image (ihex format)
-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex A16_Example.elf  "A16_Example.eep"
-Finished building: A16_Example.eep
- 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega644p A16_Example.elf
 AVR Memory Usage

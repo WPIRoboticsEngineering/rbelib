@@ -2,10 +2,10 @@ Archive member included because of file (symbol)
 
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
                               (vfprintf)
-R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
                               ./SRC/main.o (initRBELib)
-R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
-                              R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o) (initAltCom)
+R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
+                              R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o) (initAltCom)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
                               ./SRC/USART.o (__udivmodsi4)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
@@ -27,11 +27,11 @@ c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strn
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
                               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o) (fputc)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
-                              R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o) (__iob)
+                              R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o) (__iob)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
                               ./SRC/main.o (printf)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
-                              R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o) (sprintf)
+                              R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o) (sprintf)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
                               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o) (__ultoa_invert)
 
@@ -60,7 +60,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libpri
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
 LOAD ./SRC/USART.o
 LOAD ./SRC/main.o
-LOAD R:\RBE3001 example workspace\RBELib\Release\libRBELib.a
+LOAD R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
@@ -248,8 +248,8 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
  .text          0x000001bc        0x0 ./SRC/USART.o
  .text          0x000001bc        0x0 ./SRC/main.o
- .text          0x000001bc        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
- .text          0x000001bc        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+ .text          0x000001bc        0x0 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
+ .text          0x000001bc        0x0 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
@@ -281,22 +281,22 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .text.main     0x00000920       0x6c ./SRC/main.o
                 0x00000920                main
  .text.initRBELib
-                0x0000098c       0x1a R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+                0x0000098c       0x1a R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
                 0x0000098c                initRBELib
  .text.printfRBE
-                0x000009a6        0xa R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+                0x000009a6        0xa R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
                 0x000009a6                printfRBE
  .text.initAltCom
-                0x000009b0       0x38 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x000009b0       0x38 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
                 0x000009b0                initAltCom
  .text.setCharDebug
-                0x000009e8       0x10 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x000009e8       0x10 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
                 0x000009e8                setCharDebug
  .text.coPrintf
-                0x000009f8       0x1a R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x000009f8       0x1a R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
                 0x000009f8                coPrintf
  .text.setServo
-                0x00000a12       0x84 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x00000a12       0x84 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
                 0x00000a12                setServo
  .text.libgcc   0x00000a96       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
                 0x00000a96                __udivmodsi4
@@ -362,8 +362,8 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
  .data          0x00800100        0x0 ./SRC/USART.o
  .data          0x00800100       0x9d ./SRC/main.o
- .data          0x0080019d        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
- .data          0x0080019d       0x14 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+ .data          0x0080019d        0x0 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
+ .data          0x0080019d       0x14 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
  .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
  .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
  .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
@@ -381,7 +381,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.data*)
  .data.highADC  0x008001b1        0x2 ./SRC/main.o
                 0x008001b1                highADC
- .data.RBEOut   0x008001b3        0xe R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+ .data.RBEOut   0x008001b3        0xe R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
@@ -397,8 +397,8 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
  .bss           0x008001c2        0x0 ./SRC/USART.o
  .bss           0x008001c2        0x0 ./SRC/main.o
- .bss           0x008001c2        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
- .bss           0x008001c2        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+ .bss           0x008001c2        0x0 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(Debug.o)
+ .bss           0x008001c2        0x0 R:\RBE3001 testing example workspace\rbelib16-17\RBELib\Release\libRBELib.a(SetServo.o)
  .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
  .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
  .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
