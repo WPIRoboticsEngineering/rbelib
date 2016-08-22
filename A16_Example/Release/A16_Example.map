@@ -2,10 +2,10 @@ Archive member included because of file (symbol)
 
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
                               (vfprintf)
-R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
+R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
                               ./SRC/main.o (initRBELib)
-R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
-                              R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o) (initAltCom)
+R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                              R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o) (initAltCom)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
                               ./SRC/USART.o (__udivmodsi4)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
@@ -27,11 +27,11 @@ c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strn
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
                               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o) (fputc)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
-                              R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o) (__iob)
+                              R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o) (__iob)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
                               ./SRC/main.o (printf)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
-                              R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o) (sprintf)
+                              R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o) (sprintf)
 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
                               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o) (__ultoa_invert)
 
@@ -60,7 +60,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libpri
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
 LOAD ./SRC/USART.o
 LOAD ./SRC/main.o
-LOAD R:\ece_mdrive\working code\RBELib\Release\libRBELib.a
+LOAD R:\RBE3001 example workspace\RBELib\Release\libRBELib.a
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
@@ -156,7 +156,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xec6
+.text           0x00000000      0xeae
  *(.vectors)
  .vectors       0x00000000       0x7c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644p.o
                 0x00000000                __vectors
@@ -248,8 +248,8 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
  .text          0x000001bc        0x0 ./SRC/USART.o
  .text          0x000001bc        0x0 ./SRC/main.o
- .text          0x000001bc        0x0 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
- .text          0x000001bc        0x0 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
+ .text          0x000001bc        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+ .text          0x000001bc        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
  .text          0x000001bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
@@ -278,61 +278,61 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .text.getCharDebug
                 0x00000912        0xe ./SRC/USART.o
                 0x00000912                getCharDebug
- .text.main     0x00000920       0x84 ./SRC/main.o
+ .text.main     0x00000920       0x6c ./SRC/main.o
                 0x00000920                main
  .text.initRBELib
-                0x000009a4       0x1a R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
-                0x000009a4                initRBELib
+                0x0000098c       0x1a R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+                0x0000098c                initRBELib
  .text.printfRBE
-                0x000009be        0xa R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
-                0x000009be                printfRBE
+                0x000009a6        0xa R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+                0x000009a6                printfRBE
  .text.initAltCom
-                0x000009c8       0x38 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
-                0x000009c8                initAltCom
+                0x000009b0       0x38 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x000009b0                initAltCom
  .text.setCharDebug
-                0x00000a00       0x10 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
-                0x00000a00                setCharDebug
+                0x000009e8       0x10 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x000009e8                setCharDebug
  .text.coPrintf
-                0x00000a10       0x1a R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
-                0x00000a10                coPrintf
+                0x000009f8       0x1a R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x000009f8                coPrintf
  .text.setServo
-                0x00000a2a       0x84 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
-                0x00000a2a                setServo
- .text.libgcc   0x00000aae       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000aae                __udivmodsi4
- .text.libgcc   0x00000af2       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x00000af2                __prologue_saves__
- .text.libgcc   0x00000b2a       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x00000b2a                __epilogue_restores__
- .text.libgcc   0x00000b60        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00000b60        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00000b60        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000a12       0x84 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+                0x00000a12                setServo
+ .text.libgcc   0x00000a96       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000a96                __udivmodsi4
+ .text.libgcc   0x00000ada       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00000ada                __prologue_saves__
+ .text.libgcc   0x00000b12       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00000b12                __epilogue_restores__
+ .text.libgcc   0x00000b48        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000b48        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000b48        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
  .text.avr-libc
-                0x00000b60      0x1b0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
-                0x00000b60                __ftoa_engine
+                0x00000b48      0x1b0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x00000b48                __ftoa_engine
  .text.avr-libc
-                0x00000d10       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                0x00000d10                strnlen_P
+                0x00000cf8       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00000cf8                strnlen_P
  .text.avr-libc
-                0x00000d26       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                0x00000d26                strnlen
+                0x00000d0e       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00000d0e                strnlen
  .text.avr-libc
-                0x00000d3c       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
-                0x00000d3c                fputc
+                0x00000d24       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00000d24                fputc
  .text.avr-libc
-                0x00000d94       0x2a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
-                0x00000d94                printf
+                0x00000d7c       0x2a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+                0x00000d7c                printf
  .text.avr-libc
-                0x00000dbe       0x48 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
-                0x00000dbe                sprintf
+                0x00000da6       0x48 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x00000da6                sprintf
  .text.avr-libc
-                0x00000e06       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                0x00000e06                __ultoa_invert
-                0x00000ec2                . = ALIGN (0x2)
+                0x00000dee       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00000dee                __ultoa_invert
+                0x00000eaa                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000ec2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00000ec2                exit
-                0x00000ec2                _exit
+ .fini9         0x00000eaa        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00000eaa                exit
+                0x00000eaa                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -351,86 +351,86 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000ec2        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000eaa        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000ec6                _etext = .
+                0x00000eae                _etext = .
 
-.data           0x00800100       0x4e load address 0x00000ec6
+.data           0x00800100       0xc2 load address 0x00000eae
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644p.o
  .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
  .data          0x00800100        0x0 ./SRC/USART.o
- .data          0x00800100       0x29 ./SRC/main.o
- .data          0x00800129        0x0 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
- .data          0x00800129       0x14 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .data          0x0080013d        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00800100       0x9d ./SRC/main.o
+ .data          0x0080019d        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+ .data          0x0080019d       0x14 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .data          0x008001b1        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
  *(.data*)
- .data.highADC  0x0080013d        0x2 ./SRC/main.o
-                0x0080013d                highADC
- .data.RBEOut   0x0080013f        0xe R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
+ .data.highADC  0x008001b1        0x2 ./SRC/main.o
+                0x008001b1                highADC
+ .data.RBEOut   0x008001b3        0xe R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
-                0x0080014e                . = ALIGN (0x2)
- *fill*         0x0080014d        0x1 00
-                0x0080014e                _edata = .
-                0x0080014e                PROVIDE (__data_end, .)
+                0x008001c2                . = ALIGN (0x2)
+ *fill*         0x008001c1        0x1 00
+                0x008001c2                _edata = .
+                0x008001c2                PROVIDE (__data_end, .)
 
-.bss            0x0080014e        0x9
-                0x0080014e                PROVIDE (__bss_start, .)
+.bss            0x008001c2        0x9
+                0x008001c2                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644p.o
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
- .bss           0x0080014e        0x0 ./SRC/USART.o
- .bss           0x0080014e        0x0 ./SRC/main.o
- .bss           0x0080014e        0x0 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(Debug.o)
- .bss           0x0080014e        0x0 R:\ece_mdrive\working code\RBELib\Release\libRBELib.a(SetServo.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
- .bss           0x0080014e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm644p.o
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libprintf_flt.a(vfprintf_flt.o)
+ .bss           0x008001c2        0x0 ./SRC/USART.o
+ .bss           0x008001c2        0x0 ./SRC/main.o
+ .bss           0x008001c2        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(Debug.o)
+ .bss           0x008001c2        0x0 R:\RBE3001 example workspace\RBELib\Release\libRBELib.a(SetServo.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(printf.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .bss           0x008001c2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
  *(.bss*)
- .bss.lowADC    0x0080014e        0x2 ./SRC/main.o
-                0x0080014e                lowADC
+ .bss.lowADC    0x008001c2        0x2 ./SRC/main.o
+                0x008001c2                lowADC
  *(COMMON)
- COMMON         0x00800150        0x1 ./SRC/main.o
-                0x00800150                inchar
- COMMON         0x00800151        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
-                0x00800151                __iob
-                0x00800157                PROVIDE (__bss_end, .)
-                0x00000ec6                __data_load_start = LOADADDR (.data)
-                0x00000f14                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008001c4        0x1 ./SRC/main.o
+                0x008001c4                inchar
+ COMMON         0x008001c5        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(iob.o)
+                0x008001c5                __iob
+                0x008001cb                PROVIDE (__bss_end, .)
+                0x00000eae                __data_load_start = LOADADDR (.data)
+                0x00000f70                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800157        0x0
-                0x00800157                PROVIDE (__noinit_start, .)
+.noinit         0x008001cb        0x0
+                0x008001cb                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800157                PROVIDE (__noinit_end, .)
-                0x00800157                _end = .
-                0x00800157                PROVIDE (__heap_start, .)
+                0x008001cb                PROVIDE (__noinit_end, .)
+                0x008001cb                _end = .
+                0x008001cb                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)

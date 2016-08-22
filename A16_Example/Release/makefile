@@ -50,7 +50,7 @@ all: A16_Example.elf secondary-outputs
 A16_Example.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,A16_Example.map -Wl,-u,vfprintf -lprintf_flt -lm -L"R:\ece_mdrive\working code\RBELib\Release" -mmcu=atmega644p -o "A16_Example.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,A16_Example.map -Wl,-u,vfprintf -lprintf_flt -lm -L"R:\RBE3001 example workspace\RBELib\Release" -mmcu=atmega644p -o "A16_Example.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
