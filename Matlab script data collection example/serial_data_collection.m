@@ -1,6 +1,8 @@
 %Written by joest
 %creates serial object s on com 59
 s= serial('COM59');
+%increase buffer size
+s.InputBufferSize = 2048;
 %Sets up the buadrate for 115200
 set(s,'BaudRate',115200);
 % opens the serial port
