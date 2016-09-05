@@ -18,5 +18,5 @@ void putCharDebug(char byteToSend){
 }
 
 unsigned char getCharDebug(void) {
-   
+   return 'a';
 }
