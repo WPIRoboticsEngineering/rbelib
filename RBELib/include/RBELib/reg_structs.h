@@ -5,7 +5,7 @@
  * to allow for easy access to individual bit fields in each register. The general
  * syntax is \<register name>bits._\<bitfield name>.
  *
- * @author Peter Alley
+ * @author Peter Alley, Kevin Harrington
  * @date January 26, 2010
  *
  * @author Justin Barrett
